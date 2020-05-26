@@ -30,13 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RQKit/Classes/**/*'
+  s.requires_arc = true
+  s.source_files = 'RQKit/**/*.{h,m}'
+  s.public_header_files = 'RQKit/**/*.{h}'
+  s.frameworks = 'UIKit', 'Foundation'
   
-  # s.resource_bundles = {
-  #   'RQKit' => ['RQKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

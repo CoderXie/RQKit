@@ -1,0 +1,6 @@
+framework module RQKit {
+  umbrella header "RQKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
