@@ -13,7 +13,7 @@
 
 #define kChunkSize 1024
 
-static NSString *const RQ_BASICUTILITY_ANONYMOUSIDFILENAME = @"com-facebook-sdk-PersistedAnonymousID.json";
+static NSString *const RQ_BASICUTILITY_ANONYMOUSIDFILENAME = @"com-sdk-PersistedAnonymousID.json";
 static NSString *const RQ_BASICUTILITY_ANONYMOUSID_KEY = @"anon_id";
 
 

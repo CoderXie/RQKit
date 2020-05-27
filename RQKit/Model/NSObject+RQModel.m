@@ -1058,11 +1058,14 @@ static void ModelSetValueForProperty(__unsafe_unretained id model,
             } break;
                 
             case RQEncodingTypeBlock: {
+                #pragma clang diagnostic push
+                #pragma clang diagnostic ignored "-Wstrict-prototypes"
                 if (isNull) {
-                    ((void (*)(id, SEL, void (^)(void)))(void *) objc_msgSend)((id)model, meta->_setter, (void (^)(void))NULL);
+                    ((void (*)(id, SEL, void (^)()))(void *) objc_msgSend)((id)model, meta->_setter, (void (^)())NULL);
                 } else if ([value isKindOfClass:RQNSBlockClass()]) {
-                    ((void (*)(id, SEL, void (^)(void)))(void *) objc_msgSend)((id)model, meta->_setter, (void (^)(void))value);
+                    ((void (*)(id, SEL, void (^)()))(void *) objc_msgSend)((id)model, meta->_setter, (void (^)())value);
                 }
+                #pragma clang diagnostic pop
             } break;
                 
             case RQEncodingTypeStruct:
