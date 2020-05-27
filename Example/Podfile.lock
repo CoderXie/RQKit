@@ -9,7 +9,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - RQKit (0.1.0)
+  - RQKit (0.1.1)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -34,9 +34,9 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  RQKit: 1ba96351d36e69c58c7f29685e3ae2b25bc867e4
+  RQKit: b87fb6f484d96c839cb676a788a1b74be567784b
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: df4c70f6a718df45cbcfce0524538985fb680311
+PODFILE CHECKSUM: d5c429a66e1056a17abc2e3ba6aba9e77a29cd86
 
 COCOAPODS: 1.9.2

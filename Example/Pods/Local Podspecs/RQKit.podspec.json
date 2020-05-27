@@ -1,7 +1,7 @@
 {
   "name": "RQKit",
-  "version": "0.1.0",
-  "summary": "A short description of RQKit.",
+  "version": "0.1.1",
+  "summary": "A collection of iOS components",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/CoderXie/RQKit",
   "license": {
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/CoderXie/RQKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "requires_arc": true,
   "source_files": "RQKit/**/*.{h,m}",
-  "public_header_files": "Pod/Classes/**/*.h",
+  "public_header_files": "RQKit/**/*.{h}",
   "frameworks": [
     "UIKit",
     "Foundation"
