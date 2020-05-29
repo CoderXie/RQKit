@@ -17,7 +17,9 @@ RQKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RQKit'
+pod 'RQKit', '0.1.3'
+建议使用下边方式导入
+pod 'RQKit', :git => 'https://gitee.com/yin_gu/RQKit.git', :tag => '0.1.3'
 ```
 
 ## Author
