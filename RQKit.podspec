@@ -18,8 +18,6 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'RQKit is personal development kit'
-TODO: Add long description of the pod here.
-                       DESC
 
   s.homepage         = 'https://github.com/CoderXie/RQKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
