@@ -69,7 +69,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		756C5DD3247D0B3000D1DC17 /* RQKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQKit.h; sourceTree = "<group>"; };
+		754E317A2480E1F4003ECC23 /* RQKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQKit.h; sourceTree = "<group>"; };
 		756C5DD5247D0B3000D1DC17 /* RQTypeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTypeUtility.m; sourceTree = "<group>"; };
 		756C5DD6247D0B3000D1DC17 /* RQBasicUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQBasicUtility.h; sourceTree = "<group>"; };
 		756C5DD7247D0B3000D1DC17 /* RQUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQUtility.h; sourceTree = "<group>"; };
@@ -217,12 +217,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		754E317C2480E6C1003ECC23 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				75A750FC247E6EEC00DB3284 /* RQClassInfo.h */,
+				75A750FD247E6EEC00DB3284 /* RQClassInfo.m */,
+				75A750FF247E6F7B00DB3284 /* NSObject+RQModel.h */,
+				75A75100247E6F7B00DB3284 /* NSObject+RQModel.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		756C5DD2247D0B3000D1DC17 /* RQKit */ = {
 			isa = PBXGroup;
 			children = (
-				756C5DD3247D0B3000D1DC17 /* RQKit.h */,
+				754E317A2480E1F4003ECC23 /* RQKit.h */,
+				754E317C2480E6C1003ECC23 /* Core */,
 				75A7510D247E725500DB3284 /* Foundation */,
-				75A750FB247E6ED100DB3284 /* Model */,
 				75A750F7247E5E4100DB3284 /* UIKit */,
 				756C5DD4247D0B3000D1DC17 /* Utility */,
 			);
@@ -252,17 +263,6 @@
 				75A7510B247E713E00DB3284 /* UIColor+RQKit.m */,
 			);
 			path = UIKit;
-			sourceTree = "<group>";
-		};
-		75A750FB247E6ED100DB3284 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				75A750FC247E6EEC00DB3284 /* RQClassInfo.h */,
-				75A750FD247E6EEC00DB3284 /* RQClassInfo.m */,
-				75A750FF247E6F7B00DB3284 /* NSObject+RQModel.h */,
-				75A75100247E6F7B00DB3284 /* NSObject+RQModel.m */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		75A7510D247E725500DB3284 /* Foundation */ = {
@@ -348,10 +348,9 @@
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "RQKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);

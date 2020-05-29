@@ -17,22 +17,37 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+  s.description      = 'RQKit is personal development kit'
 TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/CoderXie/RQKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'CoderXie' => '1173044198@qq.com' }
   s.source           = { :git => 'https://github.com/CoderXie/RQKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
   s.requires_arc = true
-  s.source_files = 'RQKit/**/*.{h,m}'
-  s.public_header_files = 'RQKit/**/*.{h}'
-  s.frameworks = 'UIKit', 'Foundation'
+  s.source_files = 'RQKit/RQKit.h'
+
+  s.subspec 'Core' do |ss|
+    ss.ios.deployment_target = '9.0'
+    ss.source_files = 'RQKit/Core/*.{h,m}'
+  end
+  
+  s.subspec 'Foundation' do |ss|
+    ss.ios.deployment_target = '9.0'
+    ss.source_files = 'RQKit/Foundation/*.{h,m}'
+  end
+  
+  s.subspec 'UIKit' do |ss|
+    ss.ios.deployment_target = '9.0'
+    ss.source_files = 'RQKit/UIKit/*.{h,m}'
+  end
+  
+  s.subspec 'Utility' do |ss|
+    ss.ios.deployment_target = '9.0'
+    ss.source_files = 'RQKit/Utility/*.{h,m}'
+  end
   
 end

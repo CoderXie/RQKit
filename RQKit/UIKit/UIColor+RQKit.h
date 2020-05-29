@@ -10,28 +10,28 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-extern void YY_RGB2HSL(CGFloat r, CGFloat g, CGFloat b,
+extern void RQ_RGB2HSL(CGFloat r, CGFloat g, CGFloat b,
                        CGFloat *h, CGFloat *s, CGFloat *l);
 
-extern void YY_HSL2RGB(CGFloat h, CGFloat s, CGFloat l,
+extern void RQ_HSL2RGB(CGFloat h, CGFloat s, CGFloat l,
                        CGFloat *r, CGFloat *g, CGFloat *b);
 
-extern void YY_RGB2HSB(CGFloat r, CGFloat g, CGFloat b,
+extern void RQ_RGB2HSB(CGFloat r, CGFloat g, CGFloat b,
                        CGFloat *h, CGFloat *s, CGFloat *v);
 
-extern void YY_HSB2RGB(CGFloat h, CGFloat s, CGFloat v,
+extern void RQ_HSB2RGB(CGFloat h, CGFloat s, CGFloat v,
                        CGFloat *r, CGFloat *g, CGFloat *b);
 
-extern void YY_RGB2CMYK(CGFloat r, CGFloat g, CGFloat b,
+extern void RQ_RGB2CMYK(CGFloat r, CGFloat g, CGFloat b,
                         CGFloat *c, CGFloat *m, CGFloat *y, CGFloat *k);
 
-extern void YY_CMYK2RGB(CGFloat c, CGFloat m, CGFloat y, CGFloat k,
+extern void RQ_CMYK2RGB(CGFloat c, CGFloat m, CGFloat y, CGFloat k,
                         CGFloat *r, CGFloat *g, CGFloat *b);
 
-extern void YY_HSB2HSL(CGFloat h, CGFloat s, CGFloat b,
+extern void RQ_HSB2HSL(CGFloat h, CGFloat s, CGFloat b,
                        CGFloat *hh, CGFloat *ss, CGFloat *ll);
 
-extern void YY_HSL2HSB(CGFloat h, CGFloat s, CGFloat l,
+extern void RQ_HSL2HSB(CGFloat h, CGFloat s, CGFloat l,
                        CGFloat *hh, CGFloat *ss, CGFloat *bb);
 
 @interface UIColor (RQKit)
