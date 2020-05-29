@@ -1,8 +1,8 @@
 {
   "name": "RQKit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "A collection of iOS components",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "RQKit is personal development kit",
   "homepage": "https://github.com/CoderXie/RQKit",
   "license": {
     "type": "MIT",
@@ -13,16 +13,46 @@
   },
   "source": {
     "git": "https://github.com/CoderXie/RQKit.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "9.0"
   },
   "requires_arc": true,
-  "source_files": "RQKit/**/*.{h,m}",
-  "public_header_files": "RQKit/**/*.{h}",
-  "frameworks": [
-    "UIKit",
-    "Foundation"
+  "source_files": "RQKit/RQKit.h",
+  "subspecs": [
+    {
+      "name": "Core",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "RQKit/Core/*.{h,m}"
+    },
+    {
+      "name": "Foundation",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "RQKit/Foundation/*.{h,m}"
+    },
+    {
+      "name": "UIKit",
+      "dependencies": {
+        "RQKit/Foundation": [
+
+        ]
+      },
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "RQKit/UIKit/*.{h,m}"
+    },
+    {
+      "name": "Utility",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "RQKit/Utility/*.{h,m}"
+    }
   ]
 }
