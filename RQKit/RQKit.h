@@ -19,6 +19,8 @@
 #import <RQKit/NSData+RQKit.h>
 #import <RQKit/NSNumber+RQKit.h>
 #import <RQKit/UIColor+RQKit.h>
+#import <RQKit/UIView+RQKit.h>
+
 
 #else
 
@@ -31,5 +33,6 @@
 #import "NSData+RQKit.h"
 #import "NSNumber+RQKit.h"
 #import "UIColor+RQKit.h"
+#import "UIView+RQKit.h"
 
 #endif /* RQKit_h */

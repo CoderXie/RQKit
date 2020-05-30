@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7559EE872482BE56007E5963 /* UIView+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559EE862482BE56007E5963 /* UIView+RQKit.m */; };
 		756C5DDB247D0B3100D1DC17 /* RQTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DD5247D0B3000D1DC17 /* RQTypeUtility.m */; };
 		756C5DDC247D0B3100D1DC17 /* RQBasicUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DD9247D0B3000D1DC17 /* RQBasicUtility.m */; };
 		756C5DDD247D0B3100D1DC17 /* RQUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DDA247D0B3000D1DC17 /* RQUtility.m */; };
@@ -70,6 +71,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		754E317A2480E1F4003ECC23 /* RQKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQKit.h; sourceTree = "<group>"; };
+		7559EE852482BE56007E5963 /* UIView+RQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+RQKit.h"; sourceTree = "<group>"; };
+		7559EE862482BE56007E5963 /* UIView+RQKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+RQKit.m"; sourceTree = "<group>"; };
 		756C5DD5247D0B3000D1DC17 /* RQTypeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTypeUtility.m; sourceTree = "<group>"; };
 		756C5DD6247D0B3000D1DC17 /* RQBasicUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQBasicUtility.h; sourceTree = "<group>"; };
 		756C5DD7247D0B3000D1DC17 /* RQUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQUtility.h; sourceTree = "<group>"; };
@@ -277,6 +280,8 @@
 			children = (
 				75A7510A247E713E00DB3284 /* UIColor+RQKit.h */,
 				75A7510B247E713E00DB3284 /* UIColor+RQKit.m */,
+				7559EE852482BE56007E5963 /* UIView+RQKit.h */,
+				7559EE862482BE56007E5963 /* UIView+RQKit.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -482,6 +487,7 @@
 				75A75110247E727300DB3284 /* NSString+RQKit.m in Sources */,
 				75A750FE247E6EEC00DB3284 /* RQClassInfo.m in Sources */,
 				756C5DDC247D0B3100D1DC17 /* RQBasicUtility.m in Sources */,
+				7559EE872482BE56007E5963 /* UIView+RQKit.m in Sources */,
 				75A75116247E770000DB3284 /* NSNumber+RQKit.m in Sources */,
 				756C5DDB247D0B3100D1DC17 /* RQTypeUtility.m in Sources */,
 				75A7510C247E713E00DB3284 /* UIColor+RQKit.m in Sources */,
