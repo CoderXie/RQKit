@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RQKit'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A collection of iOS components'
   s.description      = 'RQKit is personal development kit'
 
@@ -21,20 +21,19 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'RQKit/RQKit.h'
 
-  s.subspec 'Core' do |ss|
+  s.subspec 'Base' do |ss|
     ss.ios.deployment_target = '9.0'
-    ss.source_files = 'RQKit/Core/*.{h,m}'
+    ss.source_files = 'RQKit/Base/*.{h,m}'
   end
   
-  s.subspec 'Foundation' do |ss|
+  s.subspec 'Model' do |ss|
     ss.ios.deployment_target = '9.0'
-    ss.source_files = 'RQKit/Foundation/*.{h,m}'
+    ss.source_files = 'RQKit/Model/*.{h,m}'
   end
   
-  s.subspec 'UIKit' do |ss|
-    ss.dependency 'RQKit/Foundation'
+  s.subspec 'Category' do |ss|
     ss.ios.deployment_target = '9.0'
-    ss.source_files = 'RQKit/UIKit/*.{h,m}'
+    ss.source_files = 'RQKit/Category/**/*.{h,m}'
   end
   
   s.subspec 'Utility' do |ss|

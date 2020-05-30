@@ -1,51 +1,24 @@
 PODS:
-  - Expecta (1.0.6)
-  - "Expecta+Snapshots (3.1.1)":
-    - Expecta (~> 1.0)
-    - FBSnapshotTestCase/Core (~> 2.0)
-    - Specta (~> 1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - RQKit (0.1.3):
-    - RQKit/Core (= 0.1.3)
-    - RQKit/Foundation (= 0.1.3)
-    - RQKit/UIKit (= 0.1.3)
-    - RQKit/Utility (= 0.1.3)
-  - RQKit/Core (0.1.3)
-  - RQKit/Foundation (0.1.3)
-  - RQKit/UIKit (0.1.3):
-    - RQKit/Foundation
-  - RQKit/Utility (0.1.3)
-  - Specta (1.0.7)
+  - RQKit (0.1.4):
+    - RQKit/Base (= 0.1.4)
+    - RQKit/Category (= 0.1.4)
+    - RQKit/Model (= 0.1.4)
+    - RQKit/Utility (= 0.1.4)
+  - RQKit/Base (0.1.4)
+  - RQKit/Category (0.1.4)
+  - RQKit/Model (0.1.4)
+  - RQKit/Utility (0.1.4)
 
 DEPENDENCIES:
-  - Expecta
-  - "Expecta+Snapshots"
-  - FBSnapshotTestCase
   - RQKit (from `../`)
-  - Specta
-
-SPEC REPOS:
-  trunk:
-    - Expecta
-    - "Expecta+Snapshots"
-    - FBSnapshotTestCase
-    - Specta
 
 EXTERNAL SOURCES:
   RQKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  RQKit: 4ada9dc0c020c97600bd964d1ccc4a97e74987d5
-  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  RQKit: f3c0d7c7bf74949c89798a8a06d51cceaf502255
 
-PODFILE CHECKSUM: d5c429a66e1056a17abc2e3ba6aba9e77a29cd86
+PODFILE CHECKSUM: d8b7bc7cde78147e24b6ee3f04b8dd50610236bc
 
 COCOAPODS: 1.9.2

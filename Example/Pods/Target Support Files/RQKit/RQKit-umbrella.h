@@ -11,13 +11,13 @@
 #endif
 
 #import "RQKit.h"
-#import "NSObject+RQModel.h"
-#import "RQClassInfo.h"
+#import "RQColor.h"
 #import "NSData+RQKit.h"
 #import "NSNumber+RQKit.h"
 #import "NSString+RQKit.h"
-#import "RQColor.h"
 #import "UIColor+RQKit.h"
+#import "NSObject+RQModel.h"
+#import "RQClassInfo.h"
 #import "RQBasicUtility.h"
 #import "RQTypeUtility.h"
 #import "RQUtility.h"

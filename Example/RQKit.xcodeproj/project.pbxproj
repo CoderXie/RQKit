@@ -217,7 +217,16 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		754E317C2480E6C1003ECC23 /* Core */ = {
+		7559EE8024824A55007E5963 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				75A7510D247E725500DB3284 /* Foundation */,
+				75A750F7247E5E4100DB3284 /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7559EE8124824A7B007E5963 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				75A750FC247E6EEC00DB3284 /* RQClassInfo.h */,
@@ -225,16 +234,25 @@
 				75A750FF247E6F7B00DB3284 /* NSObject+RQModel.h */,
 				75A75100247E6F7B00DB3284 /* NSObject+RQModel.m */,
 			);
-			path = Core;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7559EE8224824AC6007E5963 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				75A750F8247E5EA600DB3284 /* RQColor.h */,
+				75A750F9247E5EA600DB3284 /* RQColor.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		756C5DD2247D0B3000D1DC17 /* RQKit */ = {
 			isa = PBXGroup;
 			children = (
 				754E317A2480E1F4003ECC23 /* RQKit.h */,
-				754E317C2480E6C1003ECC23 /* Core */,
-				75A7510D247E725500DB3284 /* Foundation */,
-				75A750F7247E5E4100DB3284 /* UIKit */,
+				7559EE8224824AC6007E5963 /* Base */,
+				7559EE8124824A7B007E5963 /* Model */,
+				7559EE8024824A55007E5963 /* Category */,
 				756C5DD4247D0B3000D1DC17 /* Utility */,
 			);
 			name = RQKit;
@@ -257,8 +275,6 @@
 		75A750F7247E5E4100DB3284 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				75A750F8247E5EA600DB3284 /* RQColor.h */,
-				75A750F9247E5EA600DB3284 /* RQColor.m */,
 				75A7510A247E713E00DB3284 /* UIColor+RQKit.h */,
 				75A7510B247E713E00DB3284 /* UIColor+RQKit.m */,
 			);
@@ -319,7 +335,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D9ADEF557F64F7DC396B1572 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -448,30 +463,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D9ADEF557F64F7DC396B1572 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RQKit_Tests/Pods-RQKit_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RQKit_Tests/Pods-RQKit_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

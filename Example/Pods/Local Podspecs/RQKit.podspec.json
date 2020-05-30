@@ -1,6 +1,6 @@
 {
   "name": "RQKit",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "A collection of iOS components",
   "description": "RQKit is personal development kit",
   "homepage": "https://github.com/CoderXie/RQKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/CoderXie/RQKit.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,30 +22,25 @@
   "source_files": "RQKit/RQKit.h",
   "subspecs": [
     {
-      "name": "Core",
+      "name": "Base",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "RQKit/Core/*.{h,m}"
+      "source_files": "RQKit/Base/*.{h,m}"
     },
     {
-      "name": "Foundation",
+      "name": "Model",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "RQKit/Foundation/*.{h,m}"
+      "source_files": "RQKit/Model/*.{h,m}"
     },
     {
-      "name": "UIKit",
-      "dependencies": {
-        "RQKit/Foundation": [
-
-        ]
-      },
+      "name": "Category",
       "platforms": {
         "ios": "9.0"
       },
-      "source_files": "RQKit/UIKit/*.{h,m}"
+      "source_files": "RQKit/Category/**/*.{h,m}"
     },
     {
       "name": "Utility",
