@@ -7,38 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C54FB7F980FE455CBD38C32FC4CFEA2 /* RQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A6298042252B6C632BBF699A8F14B0CC /* RQColor.m */; };
-		110E2DF78AE19458788A2E64F0E75B50 /* NSData+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FC2C84DE669F68B5517692E19BEFC1 /* NSData+RQKit.m */; };
-		1F5C225BEA4FA87A83B8BBEF1B432D80 /* NSNumber+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318E66783A956C687971D1AD8D5AD72 /* NSNumber+RQKit.m */; };
-		27BEDB55A1D097FD27121A8041D4B03F /* UIColor+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4672603DEF65D0981EE3FBEA8A192961 /* UIColor+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36FCB9011D8267DF1D88371B86780843 /* UIView+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2663A867BEF4A5E5DDEA537A6AFBA081 /* UIView+RQKit.m */; };
+		0E203434022C92F7B325E4BB1A79E320 /* RQBasicUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D094D48BD731EBEBED5324F0EB2F1D70 /* RQBasicUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15390FBD50F8EC3D73F64C77B4A27FEF /* UIDevice+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E40B8FBEE9FE47EB5397F62F18D9F /* UIDevice+RQKit.m */; };
+		178D20B4E63460DB7E46F5C9DEE84C33 /* UIView+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B102D68C5A4FD7BF5D2D6A14305832 /* UIView+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D02DD5780ED2D7BB6241B239BFA976C /* UIApplication+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 595A02A1922E0E1A6DFCFF8B5B4BFC05 /* UIApplication+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F24D3F23B46E87189C655147B175FDC /* NSNumber+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26E074270AD307BF610DC5FF127FBD /* NSNumber+RQKit.m */; };
+		2609E6A30AF1A7DB8A84F80F24B947C5 /* RQClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C2308D959A4DA7A2204AD2FE493730 /* RQClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E3B332EB11EAD0965A6F433F3041BF /* RQCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DCFC738A488AC5BC5BE1085344C067 /* RQCache.m */; };
+		2A8FD7AB9942EE288C4F16E2B44EE1D7 /* NSString+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6873833B1CDFEDB70599E1FBD5413E /* NSString+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30AAFD37EEA5FFBBFE586B4EBB62126E /* NSObject+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A43384B7784447D4A812B82F196D9B4E /* NSObject+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B1CBA43E9A3FA3AD05317849F74516C /* RQClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85465ABFF65412195DC56102F9210A15 /* RQClassInfo.m */; };
+		3C09C441DD16D4FE1466EE270C66176B /* NSObject+RQModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 582DB08D79A797E8C3C93BFD42113B4F /* NSObject+RQModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43D5C5A4AC769678B6CB310EA3E70EC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		49D39142AE012569D649C335728DF6C9 /* RQUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FE31802C849283E50BC160E860FFA0 /* RQUtility.m */; };
-		530C7AB3DA62D4DA08963CEC55C99230 /* NSObject+RQModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8624856AB33EB26642FFE2C4F73C92BD /* NSObject+RQModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58CC03991F1634AA6D3231CAA1EF3D91 /* NSObject+RQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8B2959A7CB0098083DCFF61D04533 /* NSObject+RQModel.m */; };
-		593F6F996F476112486E6A587E00DC6B /* RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC037441B0E18D6BE1452C13592E46D /* RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60E56A6321D6682876C1E73BB0897BE9 /* NSString+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8771EF5F70CC75134824C128E534E725 /* NSString+RQKit.m */; };
-		721EDEE19C6D0EBE6395D9451983FAC9 /* NSNumber+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D02919422F05ABDA1BA697E3395E1A1 /* NSNumber+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73D590CE78F38891FE73D86943523C88 /* RQColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AD42093D299977EA0CE2013EF9B95E05 /* RQColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76F7A6C64151FE8E54F7E060C23A7873 /* RQKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2909E70AC5D28700BE6DED1AFEAE4EF8 /* RQKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AC0606B6B3F45BA08B119AD87F94D2F /* RQBasicUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE01DAFF96BCB64A5DE9B8B1581ECF0 /* RQBasicUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AD976F517AB69EF415A0CEC79A44A56 /* UIView+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3D9E4F35DFC1193F6283D1CF52C44D /* UIView+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C7EAAAB680F8FDC7C528FB7ACC7253C /* RQUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A16DAC3F84BE166C0AD685A0DE47A868 /* RQUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99E5780F55C4E70090CEFCACDD68E945 /* NSData+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E02B3562999665F5816C89E1EDF25E /* NSData+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BACFBADF1CC8D1AA36FF13AACC78702 /* RQBasicUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFD8A6AF98A6604580124D38858EDA /* RQBasicUtility.m */; };
-		A0D1F906B18846B8D88D1C4092B33087 /* UIColor+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C297EFFA40C8F1A7A1CC3966878AB5 /* UIColor+RQKit.m */; };
+		4FC1F53B062BD8EEACFE24E58091B7B5 /* RQTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 386AAE63E5F21DC00D8F1BB8D6EE373F /* RQTypeUtility.m */; };
+		5176AF5F10C644A8159E6682745E290F /* RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DC87F8A53F6F2B1E058A48C75236F2 /* RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5242FDB73BF27C1AC837A707A7ABA968 /* RQUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FC7D6121A881AD28952FC302714CD5 /* RQUtility.m */; };
+		55132B8653D38FD54DBD8408D0FF5EF0 /* NSObject+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E5478EB5F3EC03B572E92D5B01266357 /* NSObject+RQKit.m */; };
+		5B5251162322CA1A37B6F580A05C04A2 /* RQBasicUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1773B18FA8EE1C5E51C437D1147DA0 /* RQBasicUtility.m */; };
+		63AC0173FBDAE11C05E8E0D8D00CA844 /* RQKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB7C6652C41678C98588CFC5C72BAAD /* RQKitMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D45A602C44A6F25A38CA344E9DB732B /* NSArray+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E83F1ABAAF08D4023BC15F4387D162 /* NSArray+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DEF6DD9A9707EEE179AD279A7F49655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6F1048366E1808BE328BD14DF85B518F /* RQUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E70B7CBD77DDE1E77A3889C5AE5D263A /* RQUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7006E8AFA82B9F54465DB602CF999161 /* NSNumber+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F55FB9B6CF080581FE19E60B4760F0 /* NSNumber+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7050334AD507A51873C173FD9FDAC203 /* RQKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CACE53A782C02F64213B08A4986C07F /* RQKit-dummy.m */; };
+		71C520FB70316DA04A8FFD30973089FF /* NSArray+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB64AA961690254C3E41EE7454A4CE5 /* NSArray+RQKit.m */; };
+		7A41135A28EDC52AD7885772E47DA981 /* RQMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B74DACB855FBE937FAE322D6041C6 /* RQMemoryCache.m */; };
+		806831AC4B0934A5C2436CBB2890F774 /* UIDevice+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DABE0921092799E38E9A58A80488FBF /* UIDevice+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ED282D658A0C589FB4D4A4A7F605CCF /* RQMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C997A9FA59CE614AC7FD2ADAE13146 /* RQMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95549EAC2C79AAA936FA4E758E3FE21E /* RQTypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = EA68B8CEC1AFE282279F7798249CAD74 /* RQTypeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D10FDA113557127809766E7B1F5641B /* UIView+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AABC1F305195680479E29846C00D80 /* UIView+RQKit.m */; };
+		9D5919B4A4E91C1140A3275FDC7C0E29 /* RQDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 120F05B2AF0467268D8B9EB3C52EB0B4 /* RQDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EEADA26ADA72D7EBED3FEFA246231DD /* NSString+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ABB4F34D605558654C88E1BBFF7257 /* NSString+RQKit.m */; };
+		9F21468D0AA64AB720909DFD788203FD /* NSObject+RQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4C21FAB0D8C77FECEDAEFA6A47A73B /* NSObject+RQModel.m */; };
 		B02CC42C834C6B15DF9A217A0573DA1A /* Pods-RQKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A969CE227035E7EA26F8A5E83B51F843 /* Pods-RQKit_Tests-dummy.m */; };
-		B091399261DC70C5E2157FB0A987A99C /* RQKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF30CA9DE58AE48C7E7220F2E5D79795 /* RQKit-dummy.m */; };
-		B3729EA18DD22AC75C094E0622E9D30B /* NSString+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3E65C2FAB34E5A9696563E84788405 /* NSString+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8059FE928EEA8EB339C8D1B6DD27B9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C3CFD69F3EA12A2E92F632D36241891D /* Pods-RQKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07BE6513732E916E96B11119E67E2347 /* Pods-RQKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C7E71995985C3800645A7A79B42CB8 /* UIColor+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA525E4EAA429C0B80E119560A175A /* UIColor+RQKit.m */; };
 		C78EAD0DF24B41036965786B2BACBE51 /* Pods-RQKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DCBC1040707B95FE3BFAA9BAA51C91 /* Pods-RQKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D280AAE4C28888082F9D6F8D1618FAF4 /* RQClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F0E6EA5C1828EDCE917E8881B63F57 /* RQClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD1B132A267DAEAFEF38BE66C24606BE /* RQColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1B140883030445B1B9A8E26596B4AB /* RQColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCE8BB412C4B124AC82D10E4E2A674E /* UIApplication+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1796A8E0A06FB4350B0182A5EFE3597B /* UIApplication+RQKit.m */; };
+		D190F3798889C75130171E8961312AB8 /* RQKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 43057FE53D901CF76F9FCD084A28B225 /* RQKVStorage.m */; };
+		D4FE7D37DDA62988223CA5E160970B5D /* NSData+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D41B978962AB689F408F4908DE47863 /* NSData+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7F35E521E3E4727F07BFC2244F41BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D8AECC0D2650D6252D86D92D45103B82 /* Pods-RQKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7804DF38ABC984EFC4752C66D1F97570 /* Pods-RQKit_Example-dummy.m */; };
-		EA846C5B7BF9A0796B7611814D19D516 /* RQTypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 493A2D60272B9846F9AACD85404ACC3E /* RQTypeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0F3359A697FAAAC6D87D5E36816AC9D /* RQClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 188382FF80C6447A8FC1786A8BC2337E /* RQClassInfo.m */; };
-		F599DD6555FC678A9CDBFA3545556E71 /* RQTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AF6A79D9703368D528E201402DB6BE /* RQTypeUtility.m */; };
+		DB41B1441B756026E8CA17438480E274 /* RQKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C90DC4B7FA45D998C190EDBD46E59F1 /* RQKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC10943D416C5AD219DF593BCF36E6D2 /* RQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1774E7BE579158E3B774192E2D429424 /* RQColor.m */; };
+		E108CFFF5B0401FD4D2CB00B997FF6CF /* RQKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D7CECA24C795361AD5AEB66C6FB139 /* RQKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE15ACE19F880008ED73E7F7CDD6E9FC /* RQDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30704C0CE82F0E73C84CD3137EE4AF /* RQDiskCache.m */; };
+		EE7CAAEF5A204DA486F7FE9D5F27D2CC /* NSData+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E275C32F8829F3D48886A93AAEF1565D /* NSData+RQKit.m */; };
+		F16540FF3112AD96C7297807A5788116 /* UIColor+RQKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 029592A026CB7169366BC39223DFA6F2 /* UIColor+RQKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA74862467375B614187629E73146FD6 /* RQCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD2CD22AFFDAF4737A3F0FD6122C2D /* RQCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,60 +77,77 @@
 
 /* Begin PBXFileReference section */
 		00DCBC1040707B95FE3BFAA9BAA51C91 /* Pods-RQKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RQKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0318E66783A956C687971D1AD8D5AD72 /* NSNumber+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+RQKit.m"; sourceTree = "<group>"; };
+		029592A026CB7169366BC39223DFA6F2 /* UIColor+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+RQKit.h"; sourceTree = "<group>"; };
 		07BE6513732E916E96B11119E67E2347 /* Pods-RQKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RQKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		0A14D55EF747E636615DBBDBB28B5010 /* RQKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RQKit.debug.xcconfig; sourceTree = "<group>"; };
-		16E02B3562999665F5816C89E1EDF25E /* NSData+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+RQKit.h"; sourceTree = "<group>"; };
+		08AABC1F305195680479E29846C00D80 /* UIView+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+RQKit.m"; sourceTree = "<group>"; };
+		0C90DC4B7FA45D998C190EDBD46E59F1 /* RQKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQKVStorage.h; path = RQKit/Cache/RQKVStorage.h; sourceTree = "<group>"; };
+		0D41B978962AB689F408F4908DE47863 /* NSData+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+RQKit.h"; sourceTree = "<group>"; };
+		0D6873833B1CDFEDB70599E1FBD5413E /* NSString+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+RQKit.h"; sourceTree = "<group>"; };
+		120F05B2AF0467268D8B9EB3C52EB0B4 /* RQDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQDiskCache.h; path = RQKit/Cache/RQDiskCache.h; sourceTree = "<group>"; };
+		13A0BD64627DC028C112D24F4A483CBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		14B102D68C5A4FD7BF5D2D6A14305832 /* UIView+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+RQKit.h"; sourceTree = "<group>"; };
+		15ABB4F34D605558654C88E1BBFF7257 /* NSString+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+RQKit.m"; sourceTree = "<group>"; };
 		17204F6343F35C7DCD5DE08F4E4D4EC8 /* Pods_RQKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RQKit_Example.framework; path = "Pods-RQKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		188382FF80C6447A8FC1786A8BC2337E /* RQClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQClassInfo.m; path = RQKit/Model/RQClassInfo.m; sourceTree = "<group>"; };
-		1D02919422F05ABDA1BA697E3395E1A1 /* NSNumber+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+RQKit.h"; sourceTree = "<group>"; };
-		21F0E6EA5C1828EDCE917E8881B63F57 /* RQClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQClassInfo.h; path = RQKit/Model/RQClassInfo.h; sourceTree = "<group>"; };
-		21FE31802C849283E50BC160E860FFA0 /* RQUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQUtility.m; path = RQKit/Utility/RQUtility.m; sourceTree = "<group>"; };
-		2663A867BEF4A5E5DDEA537A6AFBA081 /* UIView+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+RQKit.m"; sourceTree = "<group>"; };
-		26EFD8A6AF98A6604580124D38858EDA /* RQBasicUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQBasicUtility.m; path = RQKit/Utility/RQBasicUtility.m; sourceTree = "<group>"; };
-		2909E70AC5D28700BE6DED1AFEAE4EF8 /* RQKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RQKit-umbrella.h"; sourceTree = "<group>"; };
-		2B04BA16C484F03F4FE9E966D77C6CAC /* RQKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RQKit-Info.plist"; sourceTree = "<group>"; };
-		30C297EFFA40C8F1A7A1CC3966878AB5 /* UIColor+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RQKit.m"; sourceTree = "<group>"; };
+		1774E7BE579158E3B774192E2D429424 /* RQColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQColor.m; path = RQKit/Base/RQColor.m; sourceTree = "<group>"; };
+		1796A8E0A06FB4350B0182A5EFE3597B /* UIApplication+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RQKit.m"; sourceTree = "<group>"; };
+		1A1773B18FA8EE1C5E51C437D1147DA0 /* RQBasicUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQBasicUtility.m; path = RQKit/Utility/RQBasicUtility.m; sourceTree = "<group>"; };
+		25E83F1ABAAF08D4023BC15F4387D162 /* NSArray+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+RQKit.h"; sourceTree = "<group>"; };
+		29DCFC738A488AC5BC5BE1085344C067 /* RQCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQCache.m; path = RQKit/Cache/RQCache.m; sourceTree = "<group>"; };
+		2CACE53A782C02F64213B08A4986C07F /* RQKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RQKit-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		359C5C48C2DC7CF7D116D73D9F4FEDA8 /* Pods-RQKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RQKit_Example.modulemap"; sourceTree = "<group>"; };
+		36DC87F8A53F6F2B1E058A48C75236F2 /* RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQKit.h; path = RQKit/RQKit.h; sourceTree = "<group>"; };
+		386AAE63E5F21DC00D8F1BB8D6EE373F /* RQTypeUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQTypeUtility.m; path = RQKit/Utility/RQTypeUtility.m; sourceTree = "<group>"; };
 		3B3A054EF453AF543FA0DB3C1BC9A622 /* Pods-RQKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RQKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C8E361377E0EA29A93711195314CEF8 /* Pods-RQKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RQKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D94D743A7825F2779335AE039536695 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		40AF6A79D9703368D528E201402DB6BE /* RQTypeUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQTypeUtility.m; path = RQKit/Utility/RQTypeUtility.m; sourceTree = "<group>"; };
-		4672603DEF65D0981EE3FBEA8A192961 /* UIColor+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+RQKit.h"; sourceTree = "<group>"; };
-		493A2D60272B9846F9AACD85404ACC3E /* RQTypeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQTypeUtility.h; path = RQKit/Utility/RQTypeUtility.h; sourceTree = "<group>"; };
+		3D26E074270AD307BF610DC5FF127FBD /* NSNumber+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+RQKit.m"; sourceTree = "<group>"; };
+		3DB6BBC161ADE9DE89612696BC8919D5 /* RQKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RQKit-prefix.pch"; sourceTree = "<group>"; };
+		43057FE53D901CF76F9FCD084A28B225 /* RQKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQKVStorage.m; path = RQKit/Cache/RQKVStorage.m; sourceTree = "<group>"; };
+		4CAD82C1F0F0FF91BBEC420544C8B86C /* RQKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RQKit.modulemap; sourceTree = "<group>"; };
+		4DABE0921092799E38E9A58A80488FBF /* UIDevice+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+RQKit.h"; sourceTree = "<group>"; };
 		5713530DC59403798588C8409435C9F9 /* Pods-RQKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RQKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		62DDFE7A07245EB2EE70095388975DED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		582DB08D79A797E8C3C93BFD42113B4F /* NSObject+RQModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RQModel.h"; path = "RQKit/Model/NSObject+RQModel.h"; sourceTree = "<group>"; };
+		595A02A1922E0E1A6DFCFF8B5B4BFC05 /* UIApplication+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RQKit.h"; sourceTree = "<group>"; };
+		60F55FB9B6CF080581FE19E60B4760F0 /* NSNumber+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+RQKit.h"; sourceTree = "<group>"; };
+		62C2308D959A4DA7A2204AD2FE493730 /* RQClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQClassInfo.h; path = RQKit/Model/RQClassInfo.h; sourceTree = "<group>"; };
 		62E6F54CC0BDC7CC0D7BCD3EAA4748DA /* RQKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RQKit.framework; path = RQKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AE01DAFF96BCB64A5DE9B8B1581ECF0 /* RQBasicUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQBasicUtility.h; path = RQKit/Utility/RQBasicUtility.h; sourceTree = "<group>"; };
+		645B86EF80134EBE40CFBFDB92E0C95E /* RQKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RQKit.debug.xcconfig; sourceTree = "<group>"; };
+		71A9C80D3BB4FED3BA70400D7A194988 /* RQKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RQKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		75EA525E4EAA429C0B80E119560A175A /* UIColor+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RQKit.m"; sourceTree = "<group>"; };
+		76D7CECA24C795361AD5AEB66C6FB139 /* RQKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RQKit-umbrella.h"; sourceTree = "<group>"; };
 		7804DF38ABC984EFC4752C66D1F97570 /* Pods-RQKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RQKit_Example-dummy.m"; sourceTree = "<group>"; };
-		8624856AB33EB26642FFE2C4F73C92BD /* NSObject+RQModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RQModel.h"; path = "RQKit/Model/NSObject+RQModel.h"; sourceTree = "<group>"; };
-		8771EF5F70CC75134824C128E534E725 /* NSString+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+RQKit.m"; sourceTree = "<group>"; };
-		8C3E65C2FAB34E5A9696563E84788405 /* NSString+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+RQKit.h"; sourceTree = "<group>"; };
-		98FC2C84DE669F68B5517692E19BEFC1 /* NSData+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+RQKit.m"; sourceTree = "<group>"; };
-		9BB8B2959A7CB0098083DCFF61D04533 /* NSObject+RQModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RQModel.m"; path = "RQKit/Model/NSObject+RQModel.m"; sourceTree = "<group>"; };
+		7D6E40B8FBEE9FE47EB5397F62F18D9F /* UIDevice+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+RQKit.m"; sourceTree = "<group>"; };
+		85465ABFF65412195DC56102F9210A15 /* RQClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQClassInfo.m; path = RQKit/Model/RQClassInfo.m; sourceTree = "<group>"; };
+		8FB7C6652C41678C98588CFC5C72BAAD /* RQKitMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQKitMacro.h; path = RQKit/Base/RQKitMacro.h; sourceTree = "<group>"; };
+		9B1B140883030445B1B9A8E26596B4AB /* RQColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQColor.h; path = RQKit/Base/RQColor.h; sourceTree = "<group>"; };
+		9BDD2CD22AFFDAF4737A3F0FD6122C2D /* RQCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQCache.h; path = RQKit/Cache/RQCache.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB64AA961690254C3E41EE7454A4CE5 /* NSArray+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RQKit.m"; sourceTree = "<group>"; };
 		A146B9434C5A384492167B3A6CF8900E /* Pods-RQKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RQKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		A16DAC3F84BE166C0AD685A0DE47A868 /* RQUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQUtility.h; path = RQKit/Utility/RQUtility.h; sourceTree = "<group>"; };
-		A6298042252B6C632BBF699A8F14B0CC /* RQColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQColor.m; path = RQKit/Base/RQColor.m; sourceTree = "<group>"; };
+		A43384B7784447D4A812B82F196D9B4E /* NSObject+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+RQKit.h"; sourceTree = "<group>"; };
 		A969CE227035E7EA26F8A5E83B51F843 /* Pods-RQKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RQKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		AD42093D299977EA0CE2013EF9B95E05 /* RQColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQColor.h; path = RQKit/Base/RQColor.h; sourceTree = "<group>"; };
 		AE3F51552D2B0FDAF8E35050625921FD /* Pods-RQKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RQKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AEC037441B0E18D6BE1452C13592E46D /* RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQKit.h; path = RQKit/RQKit.h; sourceTree = "<group>"; };
+		B18B74DACB855FBE937FAE322D6041C6 /* RQMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQMemoryCache.m; path = RQKit/Cache/RQMemoryCache.m; sourceTree = "<group>"; };
+		BD4C21FAB0D8C77FECEDAEFA6A47A73B /* NSObject+RQModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RQModel.m"; path = "RQKit/Model/NSObject+RQModel.m"; sourceTree = "<group>"; };
 		BE6E5DFBF936F4FB870DC4DEC93917E6 /* Pods-RQKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RQKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C318E2CD3952CC419CED17096367A717 /* Pods-RQKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RQKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C4F5AC566F41430769FA57DA690072C2 /* Pods-RQKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RQKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF3D9E4F35DFC1193F6283D1CF52C44D /* UIView+RQKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+RQKit.h"; sourceTree = "<group>"; };
-		CFFFCC70AFB50B6A00B2FFD9260D2633 /* RQKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RQKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D094D48BD731EBEBED5324F0EB2F1D70 /* RQBasicUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQBasicUtility.h; path = RQKit/Utility/RQBasicUtility.h; sourceTree = "<group>"; };
 		D19A553B5ED0D2C0242C59E1AB53C4E5 /* Pods-RQKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RQKit_Example-Info.plist"; sourceTree = "<group>"; };
 		DC41474C7DA1CF88EEF281217F28757E /* Pods_RQKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RQKit_Tests.framework; path = "Pods-RQKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD32E1F9D7DBDFC2A16252AF9577586D /* RQKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RQKit.modulemap; sourceTree = "<group>"; };
-		EBE8A7B2DDAFDD57B735EE2D6CBF2011 /* RQKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RQKit.release.xcconfig; sourceTree = "<group>"; };
+		E275C32F8829F3D48886A93AAEF1565D /* NSData+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+RQKit.m"; sourceTree = "<group>"; };
+		E3D0AE91EE01ECD248B7FDDE2D518C36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E5478EB5F3EC03B572E92D5B01266357 /* NSObject+RQKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RQKit.m"; sourceTree = "<group>"; };
+		E70B7CBD77DDE1E77A3889C5AE5D263A /* RQUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQUtility.h; path = RQKit/Utility/RQUtility.h; sourceTree = "<group>"; };
+		E8432E5CC9317C9D8F59FD7CDEDECABE /* RQKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RQKit.release.xcconfig; sourceTree = "<group>"; };
+		EA441DD5303C5B17F4DE3F12D79FD562 /* RQKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RQKit-Info.plist"; sourceTree = "<group>"; };
+		EA68B8CEC1AFE282279F7798249CAD74 /* RQTypeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQTypeUtility.h; path = RQKit/Utility/RQTypeUtility.h; sourceTree = "<group>"; };
+		EB30704C0CE82F0E73C84CD3137EE4AF /* RQDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQDiskCache.m; path = RQKit/Cache/RQDiskCache.m; sourceTree = "<group>"; };
 		ECD911EE1F3DE2C2C491AA2630D94189 /* Pods-RQKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RQKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F0C997A9FA59CE614AC7FD2ADAE13146 /* RQMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RQMemoryCache.h; path = RQKit/Cache/RQMemoryCache.h; sourceTree = "<group>"; };
+		F4FC7D6121A881AD28952FC302714CD5 /* RQUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RQUtility.m; path = RQKit/Utility/RQUtility.m; sourceTree = "<group>"; };
 		F6CE4835C7AD456D035851F5FF8CF094 /* Pods-RQKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RQKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FEFFE65178FB4E87B4511447B0E6B0C5 /* Pods-RQKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RQKit_Tests.modulemap"; sourceTree = "<group>"; };
-		FF24C00BEB3FF4E7F90CCA1E8D22AF50 /* RQKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RQKit-prefix.pch"; sourceTree = "<group>"; };
-		FF30CA9DE58AE48C7E7220F2E5D79795 /* RQKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RQKit-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +159,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6618E52FDB93B0BCBA1BF6D8D45BEDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEF6DD9A9707EEE179AD279A7F49655 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF7223B2D1E18FA67C471192C872E605 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,42 +175,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1C97C0205CE7DE54E82AD80DD21A984 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8059FE928EEA8EB339C8D1B6DD27B9F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		154DB6CFF4342BDE97E7880FE9D81AAE /* Utility */ = {
+		1CA00E0F66F44B5E980B0ED3E4A25BA0 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				6AE01DAFF96BCB64A5DE9B8B1581ECF0 /* RQBasicUtility.h */,
-				26EFD8A6AF98A6604580124D38858EDA /* RQBasicUtility.m */,
-				493A2D60272B9846F9AACD85404ACC3E /* RQTypeUtility.h */,
-				40AF6A79D9703368D528E201402DB6BE /* RQTypeUtility.m */,
-				A16DAC3F84BE166C0AD685A0DE47A868 /* RQUtility.h */,
-				21FE31802C849283E50BC160E860FFA0 /* RQUtility.m */,
+				595A02A1922E0E1A6DFCFF8B5B4BFC05 /* UIApplication+RQKit.h */,
+				1796A8E0A06FB4350B0182A5EFE3597B /* UIApplication+RQKit.m */,
+				029592A026CB7169366BC39223DFA6F2 /* UIColor+RQKit.h */,
+				75EA525E4EAA429C0B80E119560A175A /* UIColor+RQKit.m */,
+				4DABE0921092799E38E9A58A80488FBF /* UIDevice+RQKit.h */,
+				7D6E40B8FBEE9FE47EB5397F62F18D9F /* UIDevice+RQKit.m */,
+				14B102D68C5A4FD7BF5D2D6A14305832 /* UIView+RQKit.h */,
+				08AABC1F305195680479E29846C00D80 /* UIView+RQKit.m */,
 			);
-			name = Utility;
+			name = UIKit;
+			path = RQKit/Category/UIKit;
 			sourceTree = "<group>";
 		};
-		1BB64D8FA9FEEE3472CBA95C75457F36 /* Foundation */ = {
+		28D8567A128BEEE58A9CFF7E145A17BC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				16E02B3562999665F5816C89E1EDF25E /* NSData+RQKit.h */,
-				98FC2C84DE669F68B5517692E19BEFC1 /* NSData+RQKit.m */,
-				1D02919422F05ABDA1BA697E3395E1A1 /* NSNumber+RQKit.h */,
-				0318E66783A956C687971D1AD8D5AD72 /* NSNumber+RQKit.m */,
-				8C3E65C2FAB34E5A9696563E84788405 /* NSString+RQKit.h */,
-				8771EF5F70CC75134824C128E534E725 /* NSString+RQKit.m */,
+				E02CE2A262A8F1F574E3B94AF12C0503 /* RQKit */,
 			);
-			name = Foundation;
-			path = RQKit/Category/Foundation;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2CC992B646E189F376CD16477CC52BCF /* Targets Support Files */ = {
@@ -180,13 +211,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3149343AA468661A90BC07B46CB23901 /* Category */ = {
+		2D5C7C0DC0D79D8560125AACD140FBDE /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				1BB64D8FA9FEEE3472CBA95C75457F36 /* Foundation */,
-				E9F55E4AEC7EFC9749A1FC3F64EDDBA5 /* UIKit */,
+				9B1B140883030445B1B9A8E26596B4AB /* RQColor.h */,
+				1774E7BE579158E3B774192E2D429424 /* RQColor.m */,
+				8FB7C6652C41678C98588CFC5C72BAAD /* RQKitMacro.h */,
 			);
-			name = Category;
+			name = Base;
+			sourceTree = "<group>";
+		};
+		32DF7C4DEFB92259534FC90A595BED45 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D094D48BD731EBEBED5324F0EB2F1D70 /* RQBasicUtility.h */,
+				1A1773B18FA8EE1C5E51C437D1147DA0 /* RQBasicUtility.m */,
+				EA68B8CEC1AFE282279F7798249CAD74 /* RQTypeUtility.h */,
+				386AAE63E5F21DC00D8F1BB8D6EE373F /* RQTypeUtility.m */,
+				E70B7CBD77DDE1E77A3889C5AE5D263A /* RQUtility.h */,
+				F4FC7D6121A881AD28952FC302714CD5 /* RQUtility.m */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 		3DD878CC09C3103B27D0983C59CB7D50 /* Pods-RQKit_Tests */ = {
@@ -205,31 +250,64 @@
 			path = "Target Support Files/Pods-RQKit_Tests";
 			sourceTree = "<group>";
 		};
-		460811060DD70AD2175C699879A53C59 /* Development Pods */ = {
+		4E9BEC1C4AAF3A3BAE65D5FBD33CCF3D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F748BE1A2187B8ABCD845CE06610254C /* RQKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		597F8289DD5DCFFA21692AF2578D1AFC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3D94D743A7825F2779335AE039536695 /* LICENSE */,
-				62DDFE7A07245EB2EE70095388975DED /* README.md */,
-				CFFFCC70AFB50B6A00B2FFD9260D2633 /* RQKit.podspec */,
+				E3D0AE91EE01ECD248B7FDDE2D518C36 /* LICENSE */,
+				13A0BD64627DC028C112D24F4A483CBA /* README.md */,
+				71A9C80D3BB4FED3BA70400D7A194988 /* RQKit.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		987619F0C962A61F1C47FFA06D627852 /* Base */ = {
+		593A641A11AAE9CB6267E986817CAC63 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD42093D299977EA0CE2013EF9B95E05 /* RQColor.h */,
-				A6298042252B6C632BBF699A8F14B0CC /* RQColor.m */,
+				4CAD82C1F0F0FF91BBEC420544C8B86C /* RQKit.modulemap */,
+				2CACE53A782C02F64213B08A4986C07F /* RQKit-dummy.m */,
+				EA441DD5303C5B17F4DE3F12D79FD562 /* RQKit-Info.plist */,
+				3DB6BBC161ADE9DE89612696BC8919D5 /* RQKit-prefix.pch */,
+				76D7CECA24C795361AD5AEB66C6FB139 /* RQKit-umbrella.h */,
+				645B86EF80134EBE40CFBFDB92E0C95E /* RQKit.debug.xcconfig */,
+				E8432E5CC9317C9D8F59FD7CDEDECABE /* RQKit.release.xcconfig */,
 			);
-			name = Base;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RQKit";
+			sourceTree = "<group>";
+		};
+		5C19061E6126DF3B495CD7137C295266 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F46E0760E6FF0FAE655D6D14F8154FEB /* Foundation */,
+				1CA00E0F66F44B5E980B0ED3E4A25BA0 /* UIKit */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		5CA042B41A25F50475395EB9F77CAC08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				582DB08D79A797E8C3C93BFD42113B4F /* NSObject+RQModel.h */,
+				BD4C21FAB0D8C77FECEDAEFA6A47A73B /* NSObject+RQModel.m */,
+				62C2308D959A4DA7A2204AD2FE493730 /* RQClassInfo.h */,
+				85465ABFF65412195DC56102F9210A15 /* RQClassInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A58F85DD9C4281D18DD5B20888DE3BE5 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				9BDD2CD22AFFDAF4737A3F0FD6122C2D /* RQCache.h */,
+				29DCFC738A488AC5BC5BE1085344C067 /* RQCache.m */,
+				120F05B2AF0467268D8B9EB3C52EB0B4 /* RQDiskCache.h */,
+				EB30704C0CE82F0E73C84CD3137EE4AF /* RQDiskCache.m */,
+				0C90DC4B7FA45D998C190EDBD46E59F1 /* RQKVStorage.h */,
+				43057FE53D901CF76F9FCD084A28B225 /* RQKVStorage.m */,
+				F0C997A9FA59CE614AC7FD2ADAE13146 /* RQMemoryCache.h */,
+				B18B74DACB855FBE937FAE322D6041C6 /* RQMemoryCache.m */,
+			);
+			name = Cache;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -238,17 +316,6 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		C79AE4654C4A98B23D4ABC08FC791971 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				8624856AB33EB26642FFE2C4F73C92BD /* NSObject+RQModel.h */,
-				9BB8B2959A7CB0098083DCFF61D04533 /* NSObject+RQModel.m */,
-				21F0E6EA5C1828EDCE917E8881B63F57 /* RQClassInfo.h */,
-				188382FF80C6447A8FC1786A8BC2337E /* RQClassInfo.m */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		CA3A96C7A1897508537DF26A61CFB97D /* Pods-RQKit_Example */ = {
@@ -268,26 +335,11 @@
 			path = "Target Support Files/Pods-RQKit_Example";
 			sourceTree = "<group>";
 		};
-		CBDA8CA2809D3A3CBC2A74F0AAA49FD8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD32E1F9D7DBDFC2A16252AF9577586D /* RQKit.modulemap */,
-				FF30CA9DE58AE48C7E7220F2E5D79795 /* RQKit-dummy.m */,
-				2B04BA16C484F03F4FE9E966D77C6CAC /* RQKit-Info.plist */,
-				FF24C00BEB3FF4E7F90CCA1E8D22AF50 /* RQKit-prefix.pch */,
-				2909E70AC5D28700BE6DED1AFEAE4EF8 /* RQKit-umbrella.h */,
-				0A14D55EF747E636615DBBDBB28B5010 /* RQKit.debug.xcconfig */,
-				EBE8A7B2DDAFDD57B735EE2D6CBF2011 /* RQKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RQKit";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				460811060DD70AD2175C699879A53C59 /* Development Pods */,
+				28D8567A128BEEE58A9CFF7E145A17BC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				EE94A9FDC4490382274E3D96BAA3832D /* Products */,
 				2CC992B646E189F376CD16477CC52BCF /* Targets Support Files */,
@@ -302,16 +354,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E9F55E4AEC7EFC9749A1FC3F64EDDBA5 /* UIKit */ = {
+		E02CE2A262A8F1F574E3B94AF12C0503 /* RQKit */ = {
 			isa = PBXGroup;
 			children = (
-				4672603DEF65D0981EE3FBEA8A192961 /* UIColor+RQKit.h */,
-				30C297EFFA40C8F1A7A1CC3966878AB5 /* UIColor+RQKit.m */,
-				CF3D9E4F35DFC1193F6283D1CF52C44D /* UIView+RQKit.h */,
-				2663A867BEF4A5E5DDEA537A6AFBA081 /* UIView+RQKit.m */,
+				36DC87F8A53F6F2B1E058A48C75236F2 /* RQKit.h */,
+				2D5C7C0DC0D79D8560125AACD140FBDE /* Base */,
+				A58F85DD9C4281D18DD5B20888DE3BE5 /* Cache */,
+				5C19061E6126DF3B495CD7137C295266 /* Category */,
+				5CA042B41A25F50475395EB9F77CAC08 /* Model */,
+				4E9BEC1C4AAF3A3BAE65D5FBD33CCF3D /* Pod */,
+				593A641A11AAE9CB6267E986817CAC63 /* Support Files */,
+				32DF7C4DEFB92259534FC90A595BED45 /* Utility */,
 			);
-			name = UIKit;
-			path = RQKit/Category/UIKit;
+			name = RQKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		EE94A9FDC4490382274E3D96BAA3832D /* Products */ = {
@@ -324,19 +380,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F748BE1A2187B8ABCD845CE06610254C /* RQKit */ = {
+		F46E0760E6FF0FAE655D6D14F8154FEB /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				AEC037441B0E18D6BE1452C13592E46D /* RQKit.h */,
-				987619F0C962A61F1C47FFA06D627852 /* Base */,
-				3149343AA468661A90BC07B46CB23901 /* Category */,
-				C79AE4654C4A98B23D4ABC08FC791971 /* Model */,
-				597F8289DD5DCFFA21692AF2578D1AFC /* Pod */,
-				CBDA8CA2809D3A3CBC2A74F0AAA49FD8 /* Support Files */,
-				154DB6CFF4342BDE97E7880FE9D81AAE /* Utility */,
+				25E83F1ABAAF08D4023BC15F4387D162 /* NSArray+RQKit.h */,
+				9DB64AA961690254C3E41EE7454A4CE5 /* NSArray+RQKit.m */,
+				0D41B978962AB689F408F4908DE47863 /* NSData+RQKit.h */,
+				E275C32F8829F3D48886A93AAEF1565D /* NSData+RQKit.m */,
+				60F55FB9B6CF080581FE19E60B4760F0 /* NSNumber+RQKit.h */,
+				3D26E074270AD307BF610DC5FF127FBD /* NSNumber+RQKit.m */,
+				A43384B7784447D4A812B82F196D9B4E /* NSObject+RQKit.h */,
+				E5478EB5F3EC03B572E92D5B01266357 /* NSObject+RQKit.m */,
+				0D6873833B1CDFEDB70599E1FBD5413E /* NSString+RQKit.h */,
+				15ABB4F34D605558654C88E1BBFF7257 /* NSString+RQKit.m */,
 			);
-			name = RQKit;
-			path = ../..;
+			name = Foundation;
+			path = RQKit/Category/Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,23 +409,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FE7E38B08481D357D65AC1EC3DDA5C1 /* Headers */ = {
+		CBCDCC3035EDD1BBD7E2CFA42157B2D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99E5780F55C4E70090CEFCACDD68E945 /* NSData+RQKit.h in Headers */,
-				721EDEE19C6D0EBE6395D9451983FAC9 /* NSNumber+RQKit.h in Headers */,
-				530C7AB3DA62D4DA08963CEC55C99230 /* NSObject+RQModel.h in Headers */,
-				B3729EA18DD22AC75C094E0622E9D30B /* NSString+RQKit.h in Headers */,
-				8AC0606B6B3F45BA08B119AD87F94D2F /* RQBasicUtility.h in Headers */,
-				D280AAE4C28888082F9D6F8D1618FAF4 /* RQClassInfo.h in Headers */,
-				73D590CE78F38891FE73D86943523C88 /* RQColor.h in Headers */,
-				76F7A6C64151FE8E54F7E060C23A7873 /* RQKit-umbrella.h in Headers */,
-				593F6F996F476112486E6A587E00DC6B /* RQKit.h in Headers */,
-				EA846C5B7BF9A0796B7611814D19D516 /* RQTypeUtility.h in Headers */,
-				8C7EAAAB680F8FDC7C528FB7ACC7253C /* RQUtility.h in Headers */,
-				27BEDB55A1D097FD27121A8041D4B03F /* UIColor+RQKit.h in Headers */,
-				8AD976F517AB69EF415A0CEC79A44A56 /* UIView+RQKit.h in Headers */,
+				6D45A602C44A6F25A38CA344E9DB732B /* NSArray+RQKit.h in Headers */,
+				D4FE7D37DDA62988223CA5E160970B5D /* NSData+RQKit.h in Headers */,
+				7006E8AFA82B9F54465DB602CF999161 /* NSNumber+RQKit.h in Headers */,
+				30AAFD37EEA5FFBBFE586B4EBB62126E /* NSObject+RQKit.h in Headers */,
+				3C09C441DD16D4FE1466EE270C66176B /* NSObject+RQModel.h in Headers */,
+				2A8FD7AB9942EE288C4F16E2B44EE1D7 /* NSString+RQKit.h in Headers */,
+				0E203434022C92F7B325E4BB1A79E320 /* RQBasicUtility.h in Headers */,
+				FA74862467375B614187629E73146FD6 /* RQCache.h in Headers */,
+				2609E6A30AF1A7DB8A84F80F24B947C5 /* RQClassInfo.h in Headers */,
+				CD1B132A267DAEAFEF38BE66C24606BE /* RQColor.h in Headers */,
+				9D5919B4A4E91C1140A3275FDC7C0E29 /* RQDiskCache.h in Headers */,
+				E108CFFF5B0401FD4D2CB00B997FF6CF /* RQKit-umbrella.h in Headers */,
+				5176AF5F10C644A8159E6682745E290F /* RQKit.h in Headers */,
+				63AC0173FBDAE11C05E8E0D8D00CA844 /* RQKitMacro.h in Headers */,
+				DB41B1441B756026E8CA17438480E274 /* RQKVStorage.h in Headers */,
+				8ED282D658A0C589FB4D4A4A7F605CCF /* RQMemoryCache.h in Headers */,
+				95549EAC2C79AAA936FA4E758E3FE21E /* RQTypeUtility.h in Headers */,
+				6F1048366E1808BE328BD14DF85B518F /* RQUtility.h in Headers */,
+				1D02DD5780ED2D7BB6241B239BFA976C /* UIApplication+RQKit.h in Headers */,
+				F16540FF3112AD96C7297807A5788116 /* UIColor+RQKit.h in Headers */,
+				806831AC4B0934A5C2436CBB2890F774 /* UIDevice+RQKit.h in Headers */,
+				178D20B4E63460DB7E46F5C9DEE84C33 /* UIView+RQKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,12 +451,12 @@
 /* Begin PBXNativeTarget section */
 		7ACB944C3EE5E4285FDAD3A869E20E54 /* RQKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B62DAE79E4CF7827C2BF50E185E3B9DC /* Build configuration list for PBXNativeTarget "RQKit" */;
+			buildConfigurationList = F72C6048BE2A769C89F255DD1C8B3163 /* Build configuration list for PBXNativeTarget "RQKit" */;
 			buildPhases = (
-				5FE7E38B08481D357D65AC1EC3DDA5C1 /* Headers */,
-				7D9B0EF9472F0A9CBFAB4080F113CB6C /* Sources */,
-				F1C97C0205CE7DE54E82AD80DD21A984 /* Frameworks */,
-				90FF81B82389BEE4C63501592B173B32 /* Resources */,
+				CBCDCC3035EDD1BBD7E2CFA42157B2D3 /* Headers */,
+				7892C886A1D0AA5C39BA155F22B8115C /* Sources */,
+				6618E52FDB93B0BCBA1BF6D8D45BEDA4 /* Frameworks */,
+				D48F601D5F444CB90F8A8C8B8F1A33B2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -474,14 +542,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90FF81B82389BEE4C63501592B173B32 /* Resources */ = {
+		C485210D133F0A219A86F8F8E2393269 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C485210D133F0A219A86F8F8E2393269 /* Resources */ = {
+		D48F601D5F444CB90F8A8C8B8F1A33B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,22 +567,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D9B0EF9472F0A9CBFAB4080F113CB6C /* Sources */ = {
+		7892C886A1D0AA5C39BA155F22B8115C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				110E2DF78AE19458788A2E64F0E75B50 /* NSData+RQKit.m in Sources */,
-				1F5C225BEA4FA87A83B8BBEF1B432D80 /* NSNumber+RQKit.m in Sources */,
-				58CC03991F1634AA6D3231CAA1EF3D91 /* NSObject+RQModel.m in Sources */,
-				60E56A6321D6682876C1E73BB0897BE9 /* NSString+RQKit.m in Sources */,
-				9BACFBADF1CC8D1AA36FF13AACC78702 /* RQBasicUtility.m in Sources */,
-				F0F3359A697FAAAC6D87D5E36816AC9D /* RQClassInfo.m in Sources */,
-				0C54FB7F980FE455CBD38C32FC4CFEA2 /* RQColor.m in Sources */,
-				B091399261DC70C5E2157FB0A987A99C /* RQKit-dummy.m in Sources */,
-				F599DD6555FC678A9CDBFA3545556E71 /* RQTypeUtility.m in Sources */,
-				49D39142AE012569D649C335728DF6C9 /* RQUtility.m in Sources */,
-				A0D1F906B18846B8D88D1C4092B33087 /* UIColor+RQKit.m in Sources */,
-				36FCB9011D8267DF1D88371B86780843 /* UIView+RQKit.m in Sources */,
+				71C520FB70316DA04A8FFD30973089FF /* NSArray+RQKit.m in Sources */,
+				EE7CAAEF5A204DA486F7FE9D5F27D2CC /* NSData+RQKit.m in Sources */,
+				1F24D3F23B46E87189C655147B175FDC /* NSNumber+RQKit.m in Sources */,
+				55132B8653D38FD54DBD8408D0FF5EF0 /* NSObject+RQKit.m in Sources */,
+				9F21468D0AA64AB720909DFD788203FD /* NSObject+RQModel.m in Sources */,
+				9EEADA26ADA72D7EBED3FEFA246231DD /* NSString+RQKit.m in Sources */,
+				5B5251162322CA1A37B6F580A05C04A2 /* RQBasicUtility.m in Sources */,
+				29E3B332EB11EAD0965A6F433F3041BF /* RQCache.m in Sources */,
+				3B1CBA43E9A3FA3AD05317849F74516C /* RQClassInfo.m in Sources */,
+				DC10943D416C5AD219DF593BCF36E6D2 /* RQColor.m in Sources */,
+				EE15ACE19F880008ED73E7F7CDD6E9FC /* RQDiskCache.m in Sources */,
+				7050334AD507A51873C173FD9FDAC203 /* RQKit-dummy.m in Sources */,
+				D190F3798889C75130171E8961312AB8 /* RQKVStorage.m in Sources */,
+				7A41135A28EDC52AD7885772E47DA981 /* RQMemoryCache.m in Sources */,
+				4FC1F53B062BD8EEACFE24E58091B7B5 /* RQTypeUtility.m in Sources */,
+				5242FDB73BF27C1AC837A707A7ABA968 /* RQUtility.m in Sources */,
+				CFCE8BB412C4B124AC82D10E4E2A674E /* UIApplication+RQKit.m in Sources */,
+				C4C7E71995985C3800645A7A79B42CB8 /* UIColor+RQKit.m in Sources */,
+				15390FBD50F8EC3D73F64C77B4A27FEF /* UIDevice+RQKit.m in Sources */,
+				9D10FDA113557127809766E7B1F5641B /* UIView+RQKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,9 +653,9 @@
 			};
 			name = Debug;
 		};
-		4271EA018C09FBAAB53CA88B0CF21804 /* Release */ = {
+		4777897A12C9BF2A25F36540C126BC4D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBE8A7B2DDAFDD57B735EE2D6CBF2011 /* RQKit.release.xcconfig */;
+			baseConfigurationReference = E8432E5CC9317C9D8F59FD7CDEDECABE /* RQKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -801,9 +877,9 @@
 			};
 			name = Release;
 		};
-		CDF9A310988F33CB086EF68D890170E6 /* Debug */ = {
+		D028BEF37CCDDA5129566B2D492FC4F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A14D55EF747E636615DBBDBB28B5010 /* RQKit.debug.xcconfig */;
+			baseConfigurationReference = 645B86EF80134EBE40CFBFDB92E0C95E /* RQKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -895,11 +971,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B62DAE79E4CF7827C2BF50E185E3B9DC /* Build configuration list for PBXNativeTarget "RQKit" */ = {
+		F72C6048BE2A769C89F255DD1C8B3163 /* Build configuration list for PBXNativeTarget "RQKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF9A310988F33CB086EF68D890170E6 /* Debug */,
-				4271EA018C09FBAAB53CA88B0CF21804 /* Release */,
+				D028BEF37CCDDA5129566B2D492FC4F3 /* Debug */,
+				4777897A12C9BF2A25F36540C126BC4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

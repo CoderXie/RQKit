@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RQKit'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A collection of iOS components'
   s.description      = 'RQKit is personal development kit'
 
@@ -26,6 +26,12 @@ Pod::Spec.new do |s|
     ss.source_files = 'RQKit/Base/*.{h,m}'
   end
   
+  s.subspec 'Cache' do |ss|
+    ss.ios.deployment_target = '9.0'
+    ss.dependency 'RQKit/Category'
+    ss.source_files = 'RQKit/Cache/*.{h,m}'
+  end
+  
   s.subspec 'Model' do |ss|
     ss.ios.deployment_target = '9.0'
     ss.source_files = 'RQKit/Model/*.{h,m}'
@@ -33,6 +39,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Category' do |ss|
     ss.ios.deployment_target = '9.0'
+    ss.dependency 'RQKit/Base'
     ss.source_files = 'RQKit/Category/**/*.{h,m}'
   end
   

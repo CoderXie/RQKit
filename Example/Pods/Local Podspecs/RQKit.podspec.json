@@ -1,6 +1,6 @@
 {
   "name": "RQKit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "A collection of iOS components",
   "description": "RQKit is personal development kit",
   "homepage": "https://github.com/CoderXie/RQKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/CoderXie/RQKit.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "9.0"
@@ -29,6 +29,18 @@
       "source_files": "RQKit/Base/*.{h,m}"
     },
     {
+      "name": "Cache",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "dependencies": {
+        "RQKit/Category": [
+
+        ]
+      },
+      "source_files": "RQKit/Cache/*.{h,m}"
+    },
+    {
       "name": "Model",
       "platforms": {
         "ios": "9.0"
@@ -39,6 +51,11 @@
       "name": "Category",
       "platforms": {
         "ios": "9.0"
+      },
+      "dependencies": {
+        "RQKit/Base": [
+
+        ]
       },
       "source_files": "RQKit/Category/**/*.{h,m}"
     },

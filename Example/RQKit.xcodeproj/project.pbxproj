@@ -23,6 +23,14 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7559EE872482BE56007E5963 /* UIView+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559EE862482BE56007E5963 /* UIView+RQKit.m */; };
+		7559EE8B2483BAEB007E5963 /* RQCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559EE8A2483BAEB007E5963 /* RQCache.m */; };
+		7559EE8E2483BBBD007E5963 /* RQMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559EE8D2483BBBD007E5963 /* RQMemoryCache.m */; };
+		7559EE912483BCB6007E5963 /* RQKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559EE902483BCB6007E5963 /* RQKVStorage.m */; };
+		7559EE942483BD2C007E5963 /* UIApplication+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559EE932483BD2C007E5963 /* UIApplication+RQKit.m */; };
+		7559EE972483BDC9007E5963 /* NSArray+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559EE962483BDC9007E5963 /* NSArray+RQKit.m */; };
+		7559EE9A2483BE44007E5963 /* NSObject+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559EE992483BE44007E5963 /* NSObject+RQKit.m */; };
+		7559EE9D2483BF41007E5963 /* UIDevice+RQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559EE9C2483BF41007E5963 /* UIDevice+RQKit.m */; };
+		7559EEA02483C0C7007E5963 /* RQDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559EE9F2483C0C7007E5963 /* RQDiskCache.m */; };
 		756C5DDB247D0B3100D1DC17 /* RQTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DD5247D0B3000D1DC17 /* RQTypeUtility.m */; };
 		756C5DDC247D0B3100D1DC17 /* RQBasicUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DD9247D0B3000D1DC17 /* RQBasicUtility.m */; };
 		756C5DDD247D0B3100D1DC17 /* RQUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DDA247D0B3000D1DC17 /* RQUtility.m */; };
@@ -73,6 +81,23 @@
 		754E317A2480E1F4003ECC23 /* RQKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQKit.h; sourceTree = "<group>"; };
 		7559EE852482BE56007E5963 /* UIView+RQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+RQKit.h"; sourceTree = "<group>"; };
 		7559EE862482BE56007E5963 /* UIView+RQKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+RQKit.m"; sourceTree = "<group>"; };
+		7559EE892483BAEB007E5963 /* RQCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQCache.h; sourceTree = "<group>"; };
+		7559EE8A2483BAEB007E5963 /* RQCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQCache.m; sourceTree = "<group>"; };
+		7559EE8C2483BBBD007E5963 /* RQMemoryCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQMemoryCache.h; sourceTree = "<group>"; };
+		7559EE8D2483BBBD007E5963 /* RQMemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQMemoryCache.m; sourceTree = "<group>"; };
+		7559EE8F2483BCB6007E5963 /* RQKVStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQKVStorage.h; sourceTree = "<group>"; };
+		7559EE902483BCB6007E5963 /* RQKVStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQKVStorage.m; sourceTree = "<group>"; };
+		7559EE922483BD2C007E5963 /* UIApplication+RQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RQKit.h"; sourceTree = "<group>"; };
+		7559EE932483BD2C007E5963 /* UIApplication+RQKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RQKit.m"; sourceTree = "<group>"; };
+		7559EE952483BDC9007E5963 /* NSArray+RQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+RQKit.h"; sourceTree = "<group>"; };
+		7559EE962483BDC9007E5963 /* NSArray+RQKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RQKit.m"; sourceTree = "<group>"; };
+		7559EE982483BE44007E5963 /* NSObject+RQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+RQKit.h"; sourceTree = "<group>"; };
+		7559EE992483BE44007E5963 /* NSObject+RQKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RQKit.m"; sourceTree = "<group>"; };
+		7559EE9B2483BF41007E5963 /* UIDevice+RQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+RQKit.h"; sourceTree = "<group>"; };
+		7559EE9C2483BF41007E5963 /* UIDevice+RQKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+RQKit.m"; sourceTree = "<group>"; };
+		7559EE9E2483C0C7007E5963 /* RQDiskCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQDiskCache.h; sourceTree = "<group>"; };
+		7559EE9F2483C0C7007E5963 /* RQDiskCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQDiskCache.m; sourceTree = "<group>"; };
+		7559EEA12483C1E5007E5963 /* RQKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQKitMacro.h; sourceTree = "<group>"; };
 		756C5DD5247D0B3000D1DC17 /* RQTypeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQTypeUtility.m; sourceTree = "<group>"; };
 		756C5DD6247D0B3000D1DC17 /* RQBasicUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQBasicUtility.h; sourceTree = "<group>"; };
 		756C5DD7247D0B3000D1DC17 /* RQUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQUtility.h; sourceTree = "<group>"; };
@@ -245,14 +270,31 @@
 			children = (
 				75A750F8247E5EA600DB3284 /* RQColor.h */,
 				75A750F9247E5EA600DB3284 /* RQColor.m */,
+				7559EEA12483C1E5007E5963 /* RQKitMacro.h */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		7559EE882483BA8E007E5963 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				7559EE892483BAEB007E5963 /* RQCache.h */,
+				7559EE8A2483BAEB007E5963 /* RQCache.m */,
+				7559EE8C2483BBBD007E5963 /* RQMemoryCache.h */,
+				7559EE8D2483BBBD007E5963 /* RQMemoryCache.m */,
+				7559EE9E2483C0C7007E5963 /* RQDiskCache.h */,
+				7559EE9F2483C0C7007E5963 /* RQDiskCache.m */,
+				7559EE8F2483BCB6007E5963 /* RQKVStorage.h */,
+				7559EE902483BCB6007E5963 /* RQKVStorage.m */,
+			);
+			path = Cache;
 			sourceTree = "<group>";
 		};
 		756C5DD2247D0B3000D1DC17 /* RQKit */ = {
 			isa = PBXGroup;
 			children = (
 				754E317A2480E1F4003ECC23 /* RQKit.h */,
+				7559EE882483BA8E007E5963 /* Cache */,
 				7559EE8224824AC6007E5963 /* Base */,
 				7559EE8124824A7B007E5963 /* Model */,
 				7559EE8024824A55007E5963 /* Category */,
@@ -282,6 +324,10 @@
 				75A7510B247E713E00DB3284 /* UIColor+RQKit.m */,
 				7559EE852482BE56007E5963 /* UIView+RQKit.h */,
 				7559EE862482BE56007E5963 /* UIView+RQKit.m */,
+				7559EE922483BD2C007E5963 /* UIApplication+RQKit.h */,
+				7559EE932483BD2C007E5963 /* UIApplication+RQKit.m */,
+				7559EE9B2483BF41007E5963 /* UIDevice+RQKit.h */,
+				7559EE9C2483BF41007E5963 /* UIDevice+RQKit.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -295,6 +341,10 @@
 				75A75112247E733A00DB3284 /* NSData+RQKit.m */,
 				75A75114247E770000DB3284 /* NSNumber+RQKit.h */,
 				75A75115247E770000DB3284 /* NSNumber+RQKit.m */,
+				7559EE952483BDC9007E5963 /* NSArray+RQKit.h */,
+				7559EE962483BDC9007E5963 /* NSArray+RQKit.m */,
+				7559EE982483BE44007E5963 /* NSObject+RQKit.h */,
+				7559EE992483BE44007E5963 /* NSObject+RQKit.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -479,6 +529,7 @@
 			files = (
 				6003F59E195388D20070C39A /* RQAppDelegate.m in Sources */,
 				756C5DDD247D0B3100D1DC17 /* RQUtility.m in Sources */,
+				7559EE942483BD2C007E5963 /* UIApplication+RQKit.m in Sources */,
 				6003F5A7195388D20070C39A /* RQViewController.m in Sources */,
 				75A75101247E6F7B00DB3284 /* NSObject+RQModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -487,10 +538,17 @@
 				75A75110247E727300DB3284 /* NSString+RQKit.m in Sources */,
 				75A750FE247E6EEC00DB3284 /* RQClassInfo.m in Sources */,
 				756C5DDC247D0B3100D1DC17 /* RQBasicUtility.m in Sources */,
+				7559EE8E2483BBBD007E5963 /* RQMemoryCache.m in Sources */,
+				7559EEA02483C0C7007E5963 /* RQDiskCache.m in Sources */,
 				7559EE872482BE56007E5963 /* UIView+RQKit.m in Sources */,
+				7559EE9D2483BF41007E5963 /* UIDevice+RQKit.m in Sources */,
+				7559EE8B2483BAEB007E5963 /* RQCache.m in Sources */,
 				75A75116247E770000DB3284 /* NSNumber+RQKit.m in Sources */,
+				7559EE972483BDC9007E5963 /* NSArray+RQKit.m in Sources */,
 				756C5DDB247D0B3100D1DC17 /* RQTypeUtility.m in Sources */,
+				7559EE9A2483BE44007E5963 /* NSObject+RQKit.m in Sources */,
 				75A7510C247E713E00DB3284 /* UIColor+RQKit.m in Sources */,
+				7559EE912483BCB6007E5963 /* RQKVStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
