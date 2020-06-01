@@ -327,7 +327,7 @@ static void _RQDiskCacheSetGlobal(RQDiskCache *cache) {
             return;
         }
         Lock();
-        [_kv removeAllItemsWithProgressBlock:progress endBlock:end];
+        [self->_kv removeAllItemsWithProgressBlock:progress endBlock:end];
         Unlock();
     });
 }
