@@ -12,6 +12,8 @@
 
 #import <RQKit/RQColor.h>
 
+#import <RQKit/RQHttpTool.h>
+
 #import <RQKit/RQCache.h>
 #import <RQKit/RQMemoryCache.h>
 #import <RQKit/RQDiskCache.h>
@@ -35,6 +37,8 @@
 #else
 
 #import "RQColor.h"
+
+#import "RQHttpTool.h"
 
 #import "RQCache.h"
 #import "RQMemoryCache.h"
