@@ -28,6 +28,7 @@
 #import "UIView+RQKit.h"
 #import "NSObject+RQModel.h"
 #import "RQClassInfo.h"
+#import "RQHttpTool.h"
 #import "RQBasicUtility.h"
 #import "RQTypeUtility.h"
 #import "RQUtility.h"

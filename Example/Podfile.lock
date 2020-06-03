@@ -1,9 +1,17 @@
 PODS:
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
   - RQKit (0.1.6):
     - RQKit/Base (= 0.1.6)
     - RQKit/Cache (= 0.1.6)
     - RQKit/Category (= 0.1.6)
     - RQKit/Model (= 0.1.6)
+    - RQKit/Network (= 0.1.6)
     - RQKit/Utility (= 0.1.6)
   - RQKit/Base (0.1.6)
   - RQKit/Cache (0.1.6):
@@ -11,17 +19,24 @@ PODS:
   - RQKit/Category (0.1.6):
     - RQKit/Base
   - RQKit/Model (0.1.6)
+  - RQKit/Network (0.1.6):
+    - AFNetworking/NSURLSession (~> 4.0)
   - RQKit/Utility (0.1.6)
 
 DEPENDENCIES:
   - RQKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   RQKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RQKit: 93086216b8d576f35d1a352461e272290f88f60c
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  RQKit: d7ceacc1cd411f8137734e872de12179f33ff189
 
 PODFILE CHECKSUM: d8b7bc7cde78147e24b6ee3f04b8dd50610236bc
 

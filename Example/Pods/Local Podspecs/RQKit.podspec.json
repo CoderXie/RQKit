@@ -29,6 +29,18 @@
       "source_files": "RQKit/Base/*.{h,m}"
     },
     {
+      "name": "Network",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "dependencies": {
+        "AFNetworking/NSURLSession": [
+          "~> 4.0"
+        ]
+      },
+      "source_files": "RQKit/Network/*.{h,m}"
+    },
+    {
       "name": "Cache",
       "platforms": {
         "ios": "9.0"

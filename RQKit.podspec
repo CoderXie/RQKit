@@ -26,6 +26,12 @@ Pod::Spec.new do |s|
     ss.source_files = 'RQKit/Base/*.{h,m}'
   end
   
+  s.subspec 'Network' do |ss|
+    ss.ios.deployment_target = '9.0'
+    ss.dependency 'AFNetworking/NSURLSession', '~> 4.0'
+    ss.source_files = 'RQKit/Network/*.{h,m}'
+  end
+  
   s.subspec 'Cache' do |ss|
     ss.ios.deployment_target = '9.0'
     ss.dependency 'RQKit/Category'

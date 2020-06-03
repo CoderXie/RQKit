@@ -1,4 +1,4 @@
-# RQKit   v0.1.5
+# RQKit   v0.1.6
 
 [![CI Status](https://img.shields.io/travis/CoderXie/RQKit.svg?style=flat)](https://travis-ci.org/CoderXie/RQKit)
 [![Version](https://img.shields.io/cocoapods/v/RQKit.svg?style=flat)](https://cocoapods.org/pods/RQKit)
@@ -17,8 +17,8 @@ RQKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RQKit', '0.1.5'
-pod 'RQKit', :git => 'https://gitee.com/yin_gu/RQKit.git', :tag => '0.1.5'
+pod 'RQKit', '0.1.6'
+pod 'RQKit', :git => 'https://gitee.com/yin_gu/RQKit.git', :tag => '0.1.6'
 ```
 
 ## Author
