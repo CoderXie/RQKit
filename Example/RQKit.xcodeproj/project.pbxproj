@@ -34,6 +34,8 @@
 		756C5DDB247D0B3100D1DC17 /* RQTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DD5247D0B3000D1DC17 /* RQTypeUtility.m */; };
 		756C5DDC247D0B3100D1DC17 /* RQBasicUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DD9247D0B3000D1DC17 /* RQBasicUtility.m */; };
 		756C5DDD247D0B3100D1DC17 /* RQUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DDA247D0B3000D1DC17 /* RQUtility.m */; };
+		7599AD9524877D8B005C0306 /* RQURLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599AD9424877D8B005C0306 /* RQURLSessionTask.m */; };
+		7599AD98248781FC005C0306 /* RQURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599AD97248781FC005C0306 /* RQURLSession.m */; };
 		75A750FA247E5EA600DB3284 /* RQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A750F9247E5EA600DB3284 /* RQColor.m */; };
 		75A750FE247E6EEC00DB3284 /* RQClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A750FD247E6EEC00DB3284 /* RQClassInfo.m */; };
 		75A75101247E6F7B00DB3284 /* NSObject+RQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A75100247E6F7B00DB3284 /* NSObject+RQModel.m */; };
@@ -104,6 +106,10 @@
 		756C5DD8247D0B3000D1DC17 /* RQTypeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RQTypeUtility.h; sourceTree = "<group>"; };
 		756C5DD9247D0B3000D1DC17 /* RQBasicUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQBasicUtility.m; sourceTree = "<group>"; };
 		756C5DDA247D0B3000D1DC17 /* RQUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQUtility.m; sourceTree = "<group>"; };
+		7599AD9324877D8B005C0306 /* RQURLSessionTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQURLSessionTask.h; sourceTree = "<group>"; };
+		7599AD9424877D8B005C0306 /* RQURLSessionTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQURLSessionTask.m; sourceTree = "<group>"; };
+		7599AD96248781FC005C0306 /* RQURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQURLSession.h; sourceTree = "<group>"; };
+		7599AD97248781FC005C0306 /* RQURLSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQURLSession.m; sourceTree = "<group>"; };
 		75A750F8247E5EA600DB3284 /* RQColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQColor.h; sourceTree = "<group>"; };
 		75A750F9247E5EA600DB3284 /* RQColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQColor.m; sourceTree = "<group>"; };
 		75A750FC247E6EEC00DB3284 /* RQClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQClassInfo.h; sourceTree = "<group>"; };
@@ -294,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				754E317A2480E1F4003ECC23 /* RQKit.h */,
+				759BE63F2484D6CE00C0361B /* Network */,
 				7559EE8224824AC6007E5963 /* Base */,
 				7559EE882483BA8E007E5963 /* Cache */,
 				7559EE8124824A7B007E5963 /* Model */,
@@ -315,6 +322,17 @@
 				756C5DDA247D0B3000D1DC17 /* RQUtility.m */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		759BE63F2484D6CE00C0361B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7599AD9324877D8B005C0306 /* RQURLSessionTask.h */,
+				7599AD9424877D8B005C0306 /* RQURLSessionTask.m */,
+				7599AD96248781FC005C0306 /* RQURLSession.h */,
+				7599AD97248781FC005C0306 /* RQURLSession.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		75A750F7247E5E4100DB3284 /* UIKit */ = {
@@ -533,6 +551,7 @@
 				6003F5A7195388D20070C39A /* RQViewController.m in Sources */,
 				75A75101247E6F7B00DB3284 /* NSObject+RQModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7599AD9524877D8B005C0306 /* RQURLSessionTask.m in Sources */,
 				75A750FA247E5EA600DB3284 /* RQColor.m in Sources */,
 				75A75113247E733A00DB3284 /* NSData+RQKit.m in Sources */,
 				75A75110247E727300DB3284 /* NSString+RQKit.m in Sources */,
@@ -545,6 +564,7 @@
 				7559EE8B2483BAEB007E5963 /* RQCache.m in Sources */,
 				75A75116247E770000DB3284 /* NSNumber+RQKit.m in Sources */,
 				7559EE972483BDC9007E5963 /* NSArray+RQKit.m in Sources */,
+				7599AD98248781FC005C0306 /* RQURLSession.m in Sources */,
 				756C5DDB247D0B3100D1DC17 /* RQTypeUtility.m in Sources */,
 				7559EE9A2483BE44007E5963 /* NSObject+RQKit.m in Sources */,
 				75A7510C247E713E00DB3284 /* UIColor+RQKit.m in Sources */,

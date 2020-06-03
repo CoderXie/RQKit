@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RQKit'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A collection of iOS components'
   s.description      = 'RQKit is personal development kit'
 

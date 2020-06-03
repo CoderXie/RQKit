@@ -1,6 +1,6 @@
 {
   "name": "RQKit",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "A collection of iOS components",
   "description": "RQKit is personal development kit",
   "homepage": "https://github.com/CoderXie/RQKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/CoderXie/RQKit.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "9.0"

@@ -1,17 +1,17 @@
 PODS:
-  - RQKit (0.1.5):
-    - RQKit/Base (= 0.1.5)
-    - RQKit/Cache (= 0.1.5)
-    - RQKit/Category (= 0.1.5)
-    - RQKit/Model (= 0.1.5)
-    - RQKit/Utility (= 0.1.5)
-  - RQKit/Base (0.1.5)
-  - RQKit/Cache (0.1.5):
+  - RQKit (0.1.6):
+    - RQKit/Base (= 0.1.6)
+    - RQKit/Cache (= 0.1.6)
+    - RQKit/Category (= 0.1.6)
+    - RQKit/Model (= 0.1.6)
+    - RQKit/Utility (= 0.1.6)
+  - RQKit/Base (0.1.6)
+  - RQKit/Cache (0.1.6):
     - RQKit/Category
-  - RQKit/Category (0.1.5):
+  - RQKit/Category (0.1.6):
     - RQKit/Base
-  - RQKit/Model (0.1.5)
-  - RQKit/Utility (0.1.5)
+  - RQKit/Model (0.1.6)
+  - RQKit/Utility (0.1.6)
 
 DEPENDENCIES:
   - RQKit (from `../`)
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RQKit: 2acc7b658d0c324aa5ac9af7868f6133f58a7bd1
+  RQKit: 93086216b8d576f35d1a352461e272290f88f60c
 
 PODFILE CHECKSUM: d8b7bc7cde78147e24b6ee3f04b8dd50610236bc
 
