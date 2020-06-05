@@ -37,6 +37,7 @@
 		7599ADA124879C90005C0306 /* RQHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599ADA024879C90005C0306 /* RQHttpTool.m */; };
 		7599ADAC248A2ACB005C0306 /* RQRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599ADAB248A2ACB005C0306 /* RQRefreshTableViewController.m */; };
 		7599ADAF248A2FFB005C0306 /* RQTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599ADAE248A2FFB005C0306 /* RQTestViewController.m */; };
+		7599ADBA248A406C005C0306 /* RQBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599ADB9248A406C005C0306 /* RQBase64.m */; };
 		75A750FA247E5EA600DB3284 /* RQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A750F9247E5EA600DB3284 /* RQColor.m */; };
 		75A750FE247E6EEC00DB3284 /* RQClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A750FD247E6EEC00DB3284 /* RQClassInfo.m */; };
 		75A75101247E6F7B00DB3284 /* NSObject+RQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A75100247E6F7B00DB3284 /* NSObject+RQModel.m */; };
@@ -113,6 +114,8 @@
 		7599ADAB248A2ACB005C0306 /* RQRefreshTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQRefreshTableViewController.m; sourceTree = "<group>"; };
 		7599ADAD248A2FFB005C0306 /* RQTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQTestViewController.h; sourceTree = "<group>"; };
 		7599ADAE248A2FFB005C0306 /* RQTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQTestViewController.m; sourceTree = "<group>"; };
+		7599ADB8248A406C005C0306 /* RQBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQBase64.h; sourceTree = "<group>"; };
+		7599ADB9248A406C005C0306 /* RQBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQBase64.m; sourceTree = "<group>"; };
 		75A750F8247E5EA600DB3284 /* RQColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQColor.h; sourceTree = "<group>"; };
 		75A750F9247E5EA600DB3284 /* RQColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQColor.m; sourceTree = "<group>"; };
 		75A750FC247E6EEC00DB3284 /* RQClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQClassInfo.h; sourceTree = "<group>"; };
@@ -282,6 +285,8 @@
 				75A750F8247E5EA600DB3284 /* RQColor.h */,
 				75A750F9247E5EA600DB3284 /* RQColor.m */,
 				7559EEA12483C1E5007E5963 /* RQKitMacro.h */,
+				7599ADB8248A406C005C0306 /* RQBase64.h */,
+				7599ADB9248A406C005C0306 /* RQBase64.m */,
 				7599ADAA248A2ACB005C0306 /* RQRefreshTableViewController.h */,
 				7599ADAB248A2ACB005C0306 /* RQRefreshTableViewController.m */,
 			);
@@ -565,6 +570,7 @@
 				75A75113247E733A00DB3284 /* NSData+RQKit.m in Sources */,
 				75A75110247E727300DB3284 /* NSString+RQKit.m in Sources */,
 				75A750FE247E6EEC00DB3284 /* RQClassInfo.m in Sources */,
+				7599ADBA248A406C005C0306 /* RQBase64.m in Sources */,
 				7599ADAC248A2ACB005C0306 /* RQRefreshTableViewController.m in Sources */,
 				756C5DDC247D0B3100D1DC17 /* RQBasicUtility.m in Sources */,
 				7559EE8E2483BBBD007E5963 /* RQMemoryCache.m in Sources */,

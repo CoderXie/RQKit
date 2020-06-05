@@ -11,6 +11,7 @@
 #endif
 
 #import "RQKit.h"
+#import "RQBase64.h"
 #import "RQColor.h"
 #import "RQKitMacro.h"
 #import "RQRefreshTableViewController.h"
