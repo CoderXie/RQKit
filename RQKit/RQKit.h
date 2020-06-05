@@ -11,6 +11,7 @@
 #if __has_include(<RQKit/RQKit.h>)
 
 #import <RQKit/RQColor.h>
+#import <RQKit/RQRefreshTableViewController.h>
 
 #import <RQKit/RQHttpTool.h>
 
@@ -37,6 +38,7 @@
 #else
 
 #import "RQColor.h"
+#import "RQRefreshTableViewController.h"
 
 #import "RQHttpTool.h"
 

@@ -9,6 +9,8 @@
 #import "RQViewController.h"
 #import <RQKit/RQKit.h>
 
+#import "RQTestViewController.h"
+
 @interface RQViewController ()
 
 @end
@@ -21,6 +23,12 @@
 	// Do any additional setup after loading the view, typically from a nib.
 
     
+}
+
+- (IBAction)buttonClick:(id)sender
+{    
+    RQTestViewController * vc = [RQTestViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

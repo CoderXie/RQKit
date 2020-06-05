@@ -13,6 +13,7 @@
 #import "RQKit.h"
 #import "RQColor.h"
 #import "RQKitMacro.h"
+#import "RQRefreshTableViewController.h"
 #import "RQCache.h"
 #import "RQDiskCache.h"
 #import "RQKVStorage.h"

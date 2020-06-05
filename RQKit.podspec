@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Base' do |ss|
     ss.ios.deployment_target = '9.0'
+    ss.dependency 'MJRefresh'
     ss.source_files = 'RQKit/Base/*.{h,m}'
   end
   

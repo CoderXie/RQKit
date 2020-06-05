@@ -35,6 +35,8 @@
 		756C5DDC247D0B3100D1DC17 /* RQBasicUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DD9247D0B3000D1DC17 /* RQBasicUtility.m */; };
 		756C5DDD247D0B3100D1DC17 /* RQUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C5DDA247D0B3000D1DC17 /* RQUtility.m */; };
 		7599ADA124879C90005C0306 /* RQHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599ADA024879C90005C0306 /* RQHttpTool.m */; };
+		7599ADAC248A2ACB005C0306 /* RQRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599ADAB248A2ACB005C0306 /* RQRefreshTableViewController.m */; };
+		7599ADAF248A2FFB005C0306 /* RQTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599ADAE248A2FFB005C0306 /* RQTestViewController.m */; };
 		75A750FA247E5EA600DB3284 /* RQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A750F9247E5EA600DB3284 /* RQColor.m */; };
 		75A750FE247E6EEC00DB3284 /* RQClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A750FD247E6EEC00DB3284 /* RQClassInfo.m */; };
 		75A75101247E6F7B00DB3284 /* NSObject+RQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A75100247E6F7B00DB3284 /* NSObject+RQModel.m */; };
@@ -107,6 +109,10 @@
 		756C5DDA247D0B3000D1DC17 /* RQUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RQUtility.m; sourceTree = "<group>"; };
 		7599AD9F24879C90005C0306 /* RQHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQHttpTool.h; sourceTree = "<group>"; };
 		7599ADA024879C90005C0306 /* RQHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQHttpTool.m; sourceTree = "<group>"; };
+		7599ADAA248A2ACB005C0306 /* RQRefreshTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQRefreshTableViewController.h; sourceTree = "<group>"; };
+		7599ADAB248A2ACB005C0306 /* RQRefreshTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQRefreshTableViewController.m; sourceTree = "<group>"; };
+		7599ADAD248A2FFB005C0306 /* RQTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQTestViewController.h; sourceTree = "<group>"; };
+		7599ADAE248A2FFB005C0306 /* RQTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQTestViewController.m; sourceTree = "<group>"; };
 		75A750F8247E5EA600DB3284 /* RQColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQColor.h; sourceTree = "<group>"; };
 		75A750F9247E5EA600DB3284 /* RQColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RQColor.m; sourceTree = "<group>"; };
 		75A750FC247E6EEC00DB3284 /* RQClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RQClassInfo.h; sourceTree = "<group>"; };
@@ -200,6 +206,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RQViewController.h */,
 				6003F5A6195388D20070C39A /* RQViewController.m */,
+				7599ADAD248A2FFB005C0306 /* RQTestViewController.h */,
+				7599ADAE248A2FFB005C0306 /* RQTestViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -274,6 +282,8 @@
 				75A750F8247E5EA600DB3284 /* RQColor.h */,
 				75A750F9247E5EA600DB3284 /* RQColor.m */,
 				7559EEA12483C1E5007E5963 /* RQKitMacro.h */,
+				7599ADAA248A2ACB005C0306 /* RQRefreshTableViewController.h */,
+				7599ADAB248A2ACB005C0306 /* RQRefreshTableViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -479,11 +489,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RQKit_Example/Pods-RQKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/RQKit/RQKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RQKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,9 +561,11 @@
 				75A75101247E6F7B00DB3284 /* NSObject+RQModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				75A750FA247E5EA600DB3284 /* RQColor.m in Sources */,
+				7599ADAF248A2FFB005C0306 /* RQTestViewController.m in Sources */,
 				75A75113247E733A00DB3284 /* NSData+RQKit.m in Sources */,
 				75A75110247E727300DB3284 /* NSString+RQKit.m in Sources */,
 				75A750FE247E6EEC00DB3284 /* RQClassInfo.m in Sources */,
+				7599ADAC248A2ACB005C0306 /* RQRefreshTableViewController.m in Sources */,
 				756C5DDC247D0B3100D1DC17 /* RQBasicUtility.m in Sources */,
 				7559EE8E2483BBBD007E5963 /* RQMemoryCache.m in Sources */,
 				7559EEA02483C0C7007E5963 /* RQDiskCache.m in Sources */,
