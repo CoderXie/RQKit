@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RQKit'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A collection of iOS components'
   s.description      = 'RQKit is personal development kit'
 
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Network' do |ss|
     ss.ios.deployment_target = '9.0'
-    ss.dependency 'AFNetworking/NSURLSession', '~> 4.0'
+    ss.dependency 'AFNetworking/NSURLSession'
     ss.source_files = 'RQKit/Network/*.{h,m}'
   end
   

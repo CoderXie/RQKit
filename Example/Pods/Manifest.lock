@@ -7,23 +7,23 @@ PODS:
   - AFNetworking/Security (4.0.1)
   - AFNetworking/Serialization (4.0.1)
   - MJRefresh (3.4.3)
-  - RQKit (0.1.6):
-    - RQKit/Base (= 0.1.6)
-    - RQKit/Cache (= 0.1.6)
-    - RQKit/Category (= 0.1.6)
-    - RQKit/Model (= 0.1.6)
-    - RQKit/Network (= 0.1.6)
-    - RQKit/Utility (= 0.1.6)
-  - RQKit/Base (0.1.6):
+  - RQKit (0.1.7):
+    - RQKit/Base (= 0.1.7)
+    - RQKit/Cache (= 0.1.7)
+    - RQKit/Category (= 0.1.7)
+    - RQKit/Model (= 0.1.7)
+    - RQKit/Network (= 0.1.7)
+    - RQKit/Utility (= 0.1.7)
+  - RQKit/Base (0.1.7):
     - MJRefresh
-  - RQKit/Cache (0.1.6):
+  - RQKit/Cache (0.1.7):
     - RQKit/Category
-  - RQKit/Category (0.1.6):
+  - RQKit/Category (0.1.7):
     - RQKit/Base
-  - RQKit/Model (0.1.6)
-  - RQKit/Network (0.1.6):
-    - AFNetworking/NSURLSession (~> 4.0)
-  - RQKit/Utility (0.1.6)
+  - RQKit/Model (0.1.7)
+  - RQKit/Network (0.1.7):
+    - AFNetworking/NSURLSession
+  - RQKit/Utility (0.1.7)
 
 DEPENDENCIES:
   - RQKit (from `../`)
@@ -40,7 +40,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
-  RQKit: bc7b5ee134520d971498ab51a0643be6b3e2cbed
+  RQKit: 1a085f829d1e6c49acaadfe003e161f2032da03b
 
 PODFILE CHECKSUM: d8b7bc7cde78147e24b6ee3f04b8dd50610236bc
 

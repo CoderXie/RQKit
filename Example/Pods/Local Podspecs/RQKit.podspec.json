@@ -1,6 +1,6 @@
 {
   "name": "RQKit",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "A collection of iOS components",
   "description": "RQKit is personal development kit",
   "homepage": "https://github.com/CoderXie/RQKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/CoderXie/RQKit.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "9.0"
@@ -40,7 +40,7 @@
       },
       "dependencies": {
         "AFNetworking/NSURLSession": [
-          "~> 4.0"
+
         ]
       },
       "source_files": "RQKit/Network/*.{h,m}"
